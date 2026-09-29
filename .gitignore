@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# IDE / OS
+.DS_Store
+.vscode/
+.idea/
+
+# Credentials
+.env
+.env.*
+!.env.example
+private_info/
+*API_keys.py
+*credentials*
+*secrets*
+
+# Model/data caches
+.hf_home/
+hf_cache/
+.cache/
+models/
+
+# Benchmark data and knowledge stores (download separately)
+data/raw/
+data/knowledge_store/
+claim_images/
+
+# Generated outputs
+outputs/
+checkpoints/
+logs/
+*.tmp
+
+# Large archives / nested git repos
+*.bundle
+**/.git/

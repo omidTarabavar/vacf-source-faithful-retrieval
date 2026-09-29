@@ -1,0 +1,5 @@
+stage,mean_s,median_s,p95_s,total_s
+Visual-anchor branch,0.374,0.164,1.236,56.83
+Contextual branch,178.992,149.652,394.860,27206.81
+Fusion + hydration + restoration,8.994,1.501,42.353,1367.02
+Full VACF evidence acquisition,188.360,157.278,413.547,28630.65

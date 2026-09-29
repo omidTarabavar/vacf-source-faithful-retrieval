@@ -1,0 +1,5 @@
+configuration,mean_evidence_count,evidence_score,drop_vs_full_vacf
+Visual only + restoration,6.046,0.2168,0.0293
+Contextual only + restoration,10.000,0.2350,0.0111
+VACF without restoration,10.000,0.2441,0.0020
+VACF (full),10.000,0.2461,

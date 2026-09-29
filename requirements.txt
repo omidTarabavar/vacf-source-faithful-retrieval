@@ -1,0 +1,16 @@
+# Core VACF retrieval / restoration
+numpy
+Pillow
+torch
+transformers
+
+# Downstream / comparator helpers used by the archived scripts
+sentence-transformers
+rank-bm25
+nltk
+tqdm
+qwen-vl-utils
+
+# Official AVerImaTeC evaluation helpers may additionally require packages
+# from the organizer repository. Install those from the upstream repository
+# at the commit recorded in external/AVERIMATEC_UPSTREAM_COMMIT.txt.

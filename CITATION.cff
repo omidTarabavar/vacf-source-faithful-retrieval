@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated VACF paper."
+title: "VACF: Visual-Anchored Context Fusion for Source-Faithful Evidence Retrieval"
+type: software
+authors:
+  - family-names: Tarabavar
+    given-names: Omid
+  - family-names: Momtazi
+    given-names: Saeedeh
+  - family-names: Safabakhsh
+    given-names: Reza
