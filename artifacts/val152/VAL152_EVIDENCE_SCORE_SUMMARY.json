@@ -1,0 +1,38 @@
+{
+  "val152_n": 152,
+  "matched_xxp_vs_vacf": {
+    "xxp_mean_evidence_score": 0.2013157894736842,
+    "vacf_mean_evidence_score": 0.24610745614035087,
+    "vacf_minus_xxp": 0.04479166666666667,
+    "wins_vacf": 39,
+    "losses_vacf": 32,
+    "ties": 81,
+    "note": "Exact 10,000-sample paired-bootstrap intervals for all reported metrics are in VAL152_ALL_METRICS_PAIRED_STATS_FINAL.json."
+  },
+  "visual_only_vs_contextual_only": {
+    "visual_only_mean_evidence_score": 0.2167763157894737,
+    "contextual_only_mean_evidence_score": 0.23497807017543856,
+    "contextual_minus_visual": 0.018201754385964913,
+    "wins_contextual": 37,
+    "losses_contextual": 33,
+    "ties": 82,
+    "stage8b_ci95": {
+      "delta": 0.018201754385964913,
+      "lo": -0.06096491228070176,
+      "hi": 0.09671052631578947
+    }
+  },
+  "no_restoration_vs_full_vacf": {
+    "no_restoration_mean_evidence_score": 0.244078947368421,
+    "full_vacf_mean_evidence_score": 0.24610745614035087,
+    "full_minus_no_restoration": 0.0020285087719298218,
+    "wins_full": 38,
+    "losses_full": 37,
+    "ties": 77,
+    "stage8b_ci95": {
+      "delta": 0.0020285087719298218,
+      "lo": -0.07445175438596491,
+      "hi": 0.07927905701754381
+    }
+  }
+}

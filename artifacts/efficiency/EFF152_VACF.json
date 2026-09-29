@@ -1,0 +1,3126 @@
+{
+  "method": "VACF",
+  "benchmark_type": "warm evidence-acquisition latency",
+  "model_load_sec": 5.928733107983135,
+  "warmup_claim": 0,
+  "measured_claims": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151
+  ],
+  "per_claim": [
+    {
+      "base_image_prepare_sec": 0.43229518504813313,
+      "base_image_rank_sec": 0.4929451890056953,
+      "base_image_sec": 0.9252403740538284,
+      "s2_text_prepare_sec": 93.46451412700117,
+      "s2_text_rank_sec": 130.49712296796497,
+      "s2_text_sec": 223.96163709496614,
+      "fusion_hydration_restoration_sec": 0.671283558011055,
+      "total_sec": 225.55816102703102,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 0,
+      "claim_id": "averi_val_0000",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.19921875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.08033764897845685,
+      "base_image_rank_sec": 0.09472732606809586,
+      "base_image_sec": 0.17506497504655272,
+      "s2_text_prepare_sec": 91.73119960504118,
+      "s2_text_rank_sec": 181.83829685195815,
+      "s2_text_sec": 273.56949645699933,
+      "fusion_hydration_restoration_sec": 1.524651308893226,
+      "total_sec": 275.2692127409391,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 2,
+      "claim_index": 1,
+      "claim_id": "averi_val_0001",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.021053641918115318,
+      "base_image_rank_sec": 0.07152526394929737,
+      "base_image_sec": 0.09257890586741269,
+      "s2_text_prepare_sec": 61.71142114698887,
+      "s2_text_rank_sec": 83.71997899096459,
+      "s2_text_sec": 145.43140013795346,
+      "fusion_hydration_restoration_sec": 1.7789543949766085,
+      "total_sec": 147.30293343879748,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 4,
+      "claim_index": 2,
+      "claim_id": "averi_val_0002",
+      "peak_cuda": {
+        "allocated_gb": 2.171999454498291,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.6437329249456525,
+      "base_image_rank_sec": 0.6278763209702447,
+      "base_image_sec": 1.2716092459158972,
+      "s2_text_prepare_sec": 87.56104718300048,
+      "s2_text_rank_sec": 221.45345438900404,
+      "s2_text_sec": 309.0145015720045,
+      "fusion_hydration_restoration_sec": 0.5178010259987786,
+      "total_sec": 310.8039118439192,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 3,
+      "claim_id": "averi_val_0003",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.38833932508714497,
+      "base_image_rank_sec": 0.39063710696063936,
+      "base_image_sec": 0.7789764320477843,
+      "s2_text_prepare_sec": 18.96481524896808,
+      "s2_text_rank_sec": 23.06301791605074,
+      "s2_text_sec": 42.02783316501882,
+      "fusion_hydration_restoration_sec": 3.2003384049749,
+      "total_sec": 46.007148002041504,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 4,
+      "claim_id": "averi_val_0004",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.2940473920898512,
+      "base_image_rank_sec": 0.2855760039528832,
+      "base_image_sec": 0.5796233960427344,
+      "s2_text_prepare_sec": 85.33983692002948,
+      "s2_text_rank_sec": 119.69728355994448,
+      "s2_text_sec": 205.03712047997396,
+      "fusion_hydration_restoration_sec": 3.0069857579655945,
+      "total_sec": 208.6237296339823,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 3,
+      "claim_index": 5,
+      "claim_id": "averi_val_0005",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.1711825409438461,
+      "base_image_rank_sec": 0.16060671396553516,
+      "base_image_sec": 0.33178925490938127,
+      "s2_text_prepare_sec": 58.799157067085616,
+      "s2_text_rank_sec": 77.83267920801882,
+      "s2_text_sec": 136.63183627510443,
+      "fusion_hydration_restoration_sec": 0.8770181470317766,
+      "total_sec": 137.8406436770456,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 6,
+      "claim_id": "averi_val_0006",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.00021787802688777447,
+      "base_image_rank_sec": 7.1229878813028336e-06,
+      "base_image_sec": 0.0002250010147690773,
+      "s2_text_prepare_sec": 44.98075890308246,
+      "s2_text_rank_sec": 60.25166901596822,
+      "s2_text_sec": 105.23242791905068,
+      "fusion_hydration_restoration_sec": 25.987614480080083,
+      "total_sec": 131.22026740014553,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 7,
+      "claim_id": "averi_val_0007",
+      "peak_cuda": {
+        "allocated_gb": 2.125338077545166,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.026396794011816382,
+      "base_image_rank_sec": 0.037037372938357294,
+      "base_image_sec": 0.06343416695017368,
+      "s2_text_prepare_sec": 103.62463883997407,
+      "s2_text_rank_sec": 140.6472577379318,
+      "s2_text_sec": 244.27189657790586,
+      "fusion_hydration_restoration_sec": 19.254998818039894,
+      "total_sec": 263.59032956289593,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 8,
+      "claim_id": "averi_val_0008",
+      "peak_cuda": {
+        "allocated_gb": 2.125338077545166,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.012101424974389374,
+      "base_image_rank_sec": 0.031520328018814325,
+      "base_image_sec": 0.0436217529932037,
+      "s2_text_prepare_sec": 28.862571119097993,
+      "s2_text_rank_sec": 34.317289900034666,
+      "s2_text_sec": 63.17986101913266,
+      "fusion_hydration_restoration_sec": 1.051263705943711,
+      "total_sec": 64.27474647806957,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 9,
+      "claim_id": "averi_val_0009",
+      "peak_cuda": {
+        "allocated_gb": 2.125338077545166,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.09616918803658336,
+      "base_image_rank_sec": 0.10640583001077175,
+      "base_image_sec": 0.20257501804735512,
+      "s2_text_prepare_sec": 104.36697501398157,
+      "s2_text_rank_sec": 238.84144161001313,
+      "s2_text_sec": 343.2084166239947,
+      "fusion_hydration_restoration_sec": 0.7000522549496964,
+      "total_sec": 344.11104389699176,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 10,
+      "claim_id": "averi_val_0010",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.12542166898492724,
+      "base_image_rank_sec": 0.1267112239729613,
+      "base_image_sec": 0.25213289295788854,
+      "s2_text_prepare_sec": 79.06816719798371,
+      "s2_text_rank_sec": 176.4462943910621,
+      "s2_text_sec": 255.51446158904582,
+      "fusion_hydration_restoration_sec": 0.42699126806110144,
+      "total_sec": 256.1935857500648,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 11,
+      "claim_id": "averi_val_0011",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.611608940991573,
+      "base_image_rank_sec": 0.5527859420981258,
+      "base_image_sec": 1.1643948830896989,
+      "s2_text_prepare_sec": 61.62779875902925,
+      "s2_text_rank_sec": 98.09488242201041,
+      "s2_text_sec": 159.72268118103966,
+      "fusion_hydration_restoration_sec": 1.4047008639900014,
+      "total_sec": 162.29177692811936,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 12,
+      "claim_id": "averi_val_0012",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.6141531030880287,
+      "base_image_rank_sec": 0.5549297879915684,
+      "base_image_sec": 1.1690828910795972,
+      "s2_text_prepare_sec": 91.68540337693412,
+      "s2_text_rank_sec": 123.55003302299883,
+      "s2_text_sec": 215.23543639993295,
+      "fusion_hydration_restoration_sec": 1.3808611950371414,
+      "total_sec": 217.7853804860497,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 13,
+      "claim_id": "averi_val_0013",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.18353780696634203,
+      "base_image_rank_sec": 0.19647550699301064,
+      "base_image_sec": 0.38001331395935267,
+      "s2_text_prepare_sec": 44.205633860081434,
+      "s2_text_rank_sec": 58.749980400898494,
+      "s2_text_sec": 102.95561426097993,
+      "fusion_hydration_restoration_sec": 0.7124225270235911,
+      "total_sec": 104.04805010196287,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 2,
+      "claim_index": 14,
+      "claim_id": "averi_val_0014",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.5992488780757412,
+      "base_image_rank_sec": 0.6330163240199909,
+      "base_image_sec": 1.232265202095732,
+      "s2_text_prepare_sec": 37.26505879301112,
+      "s2_text_rank_sec": 48.76448296091985,
+      "s2_text_sec": 86.02954175393097,
+      "fusion_hydration_restoration_sec": 0.6959380109328777,
+      "total_sec": 87.95774496695958,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 2,
+      "claim_index": 15,
+      "claim_id": "averi_val_0015",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.33870152896270156,
+      "base_image_rank_sec": 0.29960307001601905,
+      "base_image_sec": 0.6383045989787206,
+      "s2_text_prepare_sec": 38.37390550703276,
+      "s2_text_rank_sec": 51.28586710302625,
+      "s2_text_sec": 89.65977261005901,
+      "fusion_hydration_restoration_sec": 1.15158797102049,
+      "total_sec": 91.44966518005822,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 16,
+      "claim_id": "averi_val_0016",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.009219118976034224,
+      "base_image_rank_sec": 0.03155143908225,
+      "base_image_sec": 0.04077055805828422,
+      "s2_text_prepare_sec": 105.26126532093622,
+      "s2_text_rank_sec": 131.888015794917,
+      "s2_text_sec": 237.14928111585323,
+      "fusion_hydration_restoration_sec": 14.59173311793711,
+      "total_sec": 251.78178479184862,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 17,
+      "claim_id": "averi_val_0017",
+      "peak_cuda": {
+        "allocated_gb": 2.125338077545166,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.011177217005752027,
+      "base_image_rank_sec": 0.02848841401282698,
+      "base_image_sec": 0.039665631018579006,
+      "s2_text_prepare_sec": 101.31077753799036,
+      "s2_text_rank_sec": 213.73609161702916,
+      "s2_text_sec": 315.0468691550195,
+      "fusion_hydration_restoration_sec": 84.99288547504693,
+      "total_sec": 400.07942026108503,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 18,
+      "claim_id": "averi_val_0018",
+      "peak_cuda": {
+        "allocated_gb": 2.125338077545166,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.10848143498878926,
+      "base_image_rank_sec": 0.10928313294425607,
+      "base_image_sec": 0.21776456793304533,
+      "s2_text_prepare_sec": 38.64491156605072,
+      "s2_text_rank_sec": 48.64780932303984,
+      "s2_text_sec": 87.29272088909056,
+      "fusion_hydration_restoration_sec": 0.8426371030509472,
+      "total_sec": 88.35312256007455,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 19,
+      "claim_id": "averi_val_0019",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.02019185700919479,
+      "base_image_rank_sec": 0.03687177994288504,
+      "base_image_sec": 0.05706363695207983,
+      "s2_text_prepare_sec": 29.12433588807471,
+      "s2_text_rank_sec": 36.87425079604145,
+      "s2_text_sec": 65.99858668411616,
+      "fusion_hydration_restoration_sec": 1.2504170699976385,
+      "total_sec": 67.30606739106588,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 20,
+      "claim_id": "averi_val_0020",
+      "peak_cuda": {
+        "allocated_gb": 2.133530616760254,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.15528800699394196,
+      "base_image_rank_sec": 0.14310852100607008,
+      "base_image_sec": 0.29839652800001204,
+      "s2_text_prepare_sec": 65.65969977295026,
+      "s2_text_rank_sec": 86.61403473699465,
+      "s2_text_sec": 152.27373450994492,
+      "fusion_hydration_restoration_sec": 0.47962765500415117,
+      "total_sec": 153.05175869294908,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 21,
+      "claim_id": "averi_val_0021",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.46287414303515106,
+      "base_image_rank_sec": 0.42580690106842667,
+      "base_image_sec": 0.8886810441035777,
+      "s2_text_prepare_sec": 52.39335274405312,
+      "s2_text_rank_sec": 103.52705286606215,
+      "s2_text_sec": 155.92040561011527,
+      "fusion_hydration_restoration_sec": 0.517208362929523,
+      "total_sec": 157.32629501714837,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 22,
+      "claim_id": "averi_val_0022",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.015462911920621991,
+      "base_image_rank_sec": 0.0294332189951092,
+      "base_image_sec": 0.04489613091573119,
+      "s2_text_prepare_sec": 22.64534186606761,
+      "s2_text_rank_sec": 32.01347262808122,
+      "s2_text_sec": 54.65881449414883,
+      "fusion_hydration_restoration_sec": 5.355537818977609,
+      "total_sec": 60.05924844404217,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 23,
+      "claim_id": "averi_val_0023",
+      "peak_cuda": {
+        "allocated_gb": 2.125338077545166,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.005903951940126717,
+      "base_image_rank_sec": 0.026741608045995235,
+      "base_image_sec": 0.03264555998612195,
+      "s2_text_prepare_sec": 121.87584859190974,
+      "s2_text_rank_sec": 202.78925281297415,
+      "s2_text_sec": 324.6651014048839,
+      "fusion_hydration_restoration_sec": 2.6873265360482037,
+      "total_sec": 327.3850735009182,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 24,
+      "claim_id": "averi_val_0024",
+      "peak_cuda": {
+        "allocated_gb": 2.125338077545166,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.27133120398502797,
+      "base_image_rank_sec": 0.26884602999780327,
+      "base_image_sec": 0.5401772339828312,
+      "s2_text_prepare_sec": 32.50796230009291,
+      "s2_text_rank_sec": 42.409513440099545,
+      "s2_text_sec": 74.91747574019246,
+      "fusion_hydration_restoration_sec": 0.33936662191990763,
+      "total_sec": 75.7970195960952,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 25,
+      "claim_id": "averi_val_0025",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.00014296697918325663,
+      "base_image_rank_sec": 6.492016837000847e-06,
+      "base_image_sec": 0.00014945899602025747,
+      "s2_text_prepare_sec": 40.855924822972156,
+      "s2_text_rank_sec": 51.08112855197396,
+      "s2_text_sec": 91.93705337494612,
+      "fusion_hydration_restoration_sec": 1.6415368809830397,
+      "total_sec": 93.57873971492518,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 26,
+      "claim_id": "averi_val_0026",
+      "peak_cuda": {
+        "allocated_gb": 2.125338077545166,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.065492048044689,
+      "base_image_rank_sec": 0.10152530902996659,
+      "base_image_sec": 0.1670173570746556,
+      "s2_text_prepare_sec": 86.2904939140426,
+      "s2_text_rank_sec": 128.5521638399223,
+      "s2_text_sec": 214.8426577539649,
+      "fusion_hydration_restoration_sec": 11.224936129990965,
+      "total_sec": 226.2346112410305,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 3,
+      "claim_index": 27,
+      "claim_id": "averi_val_0027",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.03896428004372865,
+      "base_image_rank_sec": 0.06181996501982212,
+      "base_image_sec": 0.10078424506355077,
+      "s2_text_prepare_sec": 57.3867563259555,
+      "s2_text_rank_sec": 84.2185657019727,
+      "s2_text_sec": 141.6053220279282,
+      "fusion_hydration_restoration_sec": 1.1362527350429446,
+      "total_sec": 142.8423590080347,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 28,
+      "claim_id": "averi_val_0028",
+      "peak_cuda": {
+        "allocated_gb": 2.171999454498291,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.009185428032651544,
+      "base_image_rank_sec": 0.024935684050433338,
+      "base_image_sec": 0.03412111208308488,
+      "s2_text_prepare_sec": 52.19708854903001,
+      "s2_text_rank_sec": 95.56299233308528,
+      "s2_text_sec": 147.7600808821153,
+      "fusion_hydration_restoration_sec": 9.558433089987375,
+      "total_sec": 157.35263508418575,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 29,
+      "claim_id": "averi_val_0029",
+      "peak_cuda": {
+        "allocated_gb": 2.125338077545166,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.019043067004531622,
+      "base_image_rank_sec": 0.03800211497582495,
+      "base_image_sec": 0.057045181980356574,
+      "s2_text_prepare_sec": 112.40579746104777,
+      "s2_text_rank_sec": 206.97477027401328,
+      "s2_text_sec": 319.38056773506105,
+      "fusion_hydration_restoration_sec": 18.546496795024723,
+      "total_sec": 337.98410971206613,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 30,
+      "claim_id": "averi_val_0030",
+      "peak_cuda": {
+        "allocated_gb": 2.125338077545166,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 1.429209063993767,
+      "base_image_rank_sec": 1.4275695430114865,
+      "base_image_sec": 2.8567786070052534,
+      "s2_text_prepare_sec": 67.74931345402729,
+      "s2_text_rank_sec": 85.70264694502112,
+      "s2_text_sec": 153.4519603990484,
+      "fusion_hydration_restoration_sec": 1.947350475937128,
+      "total_sec": 158.25608948199078,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 31,
+      "claim_id": "averi_val_0031",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.081223921966739,
+      "base_image_rank_sec": 0.09199270501267165,
+      "base_image_sec": 0.17321662697941065,
+      "s2_text_prepare_sec": 162.89498552994337,
+      "s2_text_rank_sec": 324.1938605859177,
+      "s2_text_sec": 487.0888461158611,
+      "fusion_hydration_restoration_sec": 33.85442637000233,
+      "total_sec": 521.1164891128428,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 32,
+      "claim_id": "averi_val_0032",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.054788741981610656,
+      "base_image_rank_sec": 0.06474948092363775,
+      "base_image_sec": 0.1195382229052484,
+      "s2_text_prepare_sec": 33.917331842007115,
+      "s2_text_rank_sec": 41.68988121510483,
+      "s2_text_sec": 75.60721305711195,
+      "fusion_hydration_restoration_sec": 9.338524457998574,
+      "total_sec": 85.06527573801577,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 33,
+      "claim_id": "averi_val_0033",
+      "peak_cuda": {
+        "allocated_gb": 2.171999454498291,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.11995180696249008,
+      "base_image_rank_sec": 0.06580484809819609,
+      "base_image_sec": 0.18575665506068617,
+      "s2_text_prepare_sec": 28.93530781008303,
+      "s2_text_rank_sec": 36.33101676101796,
+      "s2_text_sec": 65.266324571101,
+      "fusion_hydration_restoration_sec": 1.3616731680231169,
+      "total_sec": 66.8137543941848,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 34,
+      "claim_id": "averi_val_0034",
+      "peak_cuda": {
+        "allocated_gb": 2.171999454498291,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.33444828097708523,
+      "base_image_rank_sec": 0.3015545849921182,
+      "base_image_sec": 0.6360028659692034,
+      "s2_text_prepare_sec": 78.83584802504629,
+      "s2_text_rank_sec": 165.44400947308168,
+      "s2_text_sec": 244.27985749812797,
+      "fusion_hydration_restoration_sec": 5.447409381042235,
+      "total_sec": 250.3632697451394,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 35,
+      "claim_id": "averi_val_0035",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.4344708069693297,
+      "base_image_rank_sec": 0.4573027479927987,
+      "base_image_sec": 0.8917735549621284,
+      "s2_text_prepare_sec": 37.3135705019813,
+      "s2_text_rank_sec": 71.48380979907233,
+      "s2_text_sec": 108.79738030105364,
+      "fusion_hydration_restoration_sec": 1.0886837199795991,
+      "total_sec": 110.77783757599536,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 6,
+      "claim_index": 36,
+      "claim_id": "averi_val_0036",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.06823493097908795,
+      "base_image_rank_sec": 0.08394404395949095,
+      "base_image_sec": 0.1521789749385789,
+      "s2_text_prepare_sec": 22.86047860502731,
+      "s2_text_rank_sec": 34.250495047075674,
+      "s2_text_sec": 57.110973652102984,
+      "fusion_hydration_restoration_sec": 0.894460993935354,
+      "total_sec": 58.15761362097692,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 37,
+      "claim_id": "averi_val_0037",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.11353157390840352,
+      "base_image_rank_sec": 0.1780460299924016,
+      "base_image_sec": 0.2915776039008051,
+      "s2_text_prepare_sec": 23.36274691601284,
+      "s2_text_rank_sec": 30.073070009006187,
+      "s2_text_sec": 53.435816925019026,
+      "fusion_hydration_restoration_sec": 0.5636918620439246,
+      "total_sec": 54.291086390963756,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 38,
+      "claim_id": "averi_val_0038",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.5691101519623771,
+      "base_image_rank_sec": 0.5646937299752608,
+      "base_image_sec": 1.133803881937638,
+      "s2_text_prepare_sec": 33.67821556690615,
+      "s2_text_rank_sec": 49.221046829014085,
+      "s2_text_sec": 82.89926239592023,
+      "fusion_hydration_restoration_sec": 0.5936459050280973,
+      "total_sec": 84.62671218288597,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 39,
+      "claim_id": "averi_val_0039",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.04381399694830179,
+      "base_image_rank_sec": 0.08891068701632321,
+      "base_image_sec": 0.132724683964625,
+      "s2_text_prepare_sec": 79.38058385194745,
+      "s2_text_rank_sec": 105.19511210895143,
+      "s2_text_sec": 184.57569596089888,
+      "fusion_hydration_restoration_sec": 1.005687016993761,
+      "total_sec": 185.71410766185727,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 3,
+      "claim_index": 40,
+      "claim_id": "averi_val_0040",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.17875926406122744,
+      "base_image_rank_sec": 0.21631485200487077,
+      "base_image_sec": 0.3950741160660982,
+      "s2_text_prepare_sec": 52.460370999062434,
+      "s2_text_rank_sec": 71.52728457399644,
+      "s2_text_sec": 123.98765557305887,
+      "fusion_hydration_restoration_sec": 0.3878267449326813,
+      "total_sec": 124.77055643405765,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 41,
+      "claim_id": "averi_val_0041",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.018439821084029973,
+      "base_image_rank_sec": 0.029566894052550197,
+      "base_image_sec": 0.04800671513658017,
+      "s2_text_prepare_sec": 24.490361114032567,
+      "s2_text_rank_sec": 37.03474970208481,
+      "s2_text_sec": 61.525110816117376,
+      "fusion_hydration_restoration_sec": 14.734898769995198,
+      "total_sec": 76.30801630124915,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 42,
+      "claim_id": "averi_val_0042",
+      "peak_cuda": {
+        "allocated_gb": 2.125338077545166,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.07773696805816144,
+      "base_image_rank_sec": 0.11655433103442192,
+      "base_image_sec": 0.19429129909258336,
+      "s2_text_prepare_sec": 75.6253741630353,
+      "s2_text_rank_sec": 105.46655343903694,
+      "s2_text_sec": 181.09192760207225,
+      "fusion_hydration_restoration_sec": 1.1172654340043664,
+      "total_sec": 182.4034843351692,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 43,
+      "claim_id": "averi_val_0043",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.04149465903174132,
+      "base_image_rank_sec": 0.058020756929181516,
+      "base_image_sec": 0.09951541596092284,
+      "s2_text_prepare_sec": 40.691635508905165,
+      "s2_text_rank_sec": 63.19892141001765,
+      "s2_text_sec": 103.89055691892281,
+      "fusion_hydration_restoration_sec": 1.3886906020343304,
+      "total_sec": 105.37876293691806,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 44,
+      "claim_id": "averi_val_0044",
+      "peak_cuda": {
+        "allocated_gb": 2.171999454498291,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.03439849696587771,
+      "base_image_rank_sec": 0.04041518794838339,
+      "base_image_sec": 0.0748136849142611,
+      "s2_text_prepare_sec": 29.855616905028,
+      "s2_text_rank_sec": 48.77434481703676,
+      "s2_text_sec": 78.62996172206476,
+      "fusion_hydration_restoration_sec": 24.770551545079798,
+      "total_sec": 103.47532695205882,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 45,
+      "claim_id": "averi_val_0045",
+      "peak_cuda": {
+        "allocated_gb": 2.1643056869506836,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.00912524398881942,
+      "base_image_rank_sec": 0.02344376698601991,
+      "base_image_sec": 0.03256901097483933,
+      "s2_text_prepare_sec": 65.31595807697158,
+      "s2_text_rank_sec": 108.92047504195943,
+      "s2_text_sec": 174.23643311893102,
+      "fusion_hydration_restoration_sec": 11.591128133004531,
+      "total_sec": 185.8601302629104,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 46,
+      "claim_id": "averi_val_0046",
+      "peak_cuda": {
+        "allocated_gb": 2.125338077545166,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.012095695012249053,
+      "base_image_rank_sec": 0.07927310897503048,
+      "base_image_sec": 0.09136880398727953,
+      "s2_text_prepare_sec": 5.132227999041788,
+      "s2_text_rank_sec": 6.942169415066019,
+      "s2_text_sec": 12.074397414107807,
+      "fusion_hydration_restoration_sec": 5.474140742910095,
+      "total_sec": 17.63990696100518,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 4,
+      "claim_index": 47,
+      "claim_id": "averi_val_0047",
+      "peak_cuda": {
+        "allocated_gb": 2.125338077545166,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.00010945496615022421,
+      "base_image_rank_sec": 7.194001227617264e-06,
+      "base_image_sec": 0.00011664896737784147,
+      "s2_text_prepare_sec": 82.46861272410024,
+      "s2_text_rank_sec": 170.9782465939643,
+      "s2_text_sec": 253.44685931806453,
+      "fusion_hydration_restoration_sec": 2.4496809359407052,
+      "total_sec": 255.8966569029726,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 48,
+      "claim_id": "averi_val_0048",
+      "peak_cuda": {
+        "allocated_gb": 2.125338077545166,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.005139374057762325,
+      "base_image_rank_sec": 0.02462577202823013,
+      "base_image_sec": 0.029765146085992455,
+      "s2_text_prepare_sec": 20.980768746929243,
+      "s2_text_rank_sec": 27.9880255300086,
+      "s2_text_sec": 48.96879427693784,
+      "fusion_hydration_restoration_sec": 6.882867973065004,
+      "total_sec": 55.88142739608884,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 49,
+      "claim_id": "averi_val_0049",
+      "peak_cuda": {
+        "allocated_gb": 2.125338077545166,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.05346712307073176,
+      "base_image_rank_sec": 0.06133302196394652,
+      "base_image_sec": 0.11480014503467828,
+      "s2_text_prepare_sec": 70.13199068699032,
+      "s2_text_rank_sec": 94.33359983703122,
+      "s2_text_sec": 164.46559052402154,
+      "fusion_hydration_restoration_sec": 0.8424627359490842,
+      "total_sec": 165.4228534050053,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 50,
+      "claim_id": "averi_val_0050",
+      "peak_cuda": {
+        "allocated_gb": 2.171999454498291,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.02846788300666958,
+      "base_image_rank_sec": 0.0372408329276368,
+      "base_image_sec": 0.06570871593430638,
+      "s2_text_prepare_sec": 127.50599354796577,
+      "s2_text_rank_sec": 234.64516008202918,
+      "s2_text_sec": 362.15115362999495,
+      "fusion_hydration_restoration_sec": 6.509083410957828,
+      "total_sec": 368.7259457568871,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 51,
+      "claim_id": "averi_val_0051",
+      "peak_cuda": {
+        "allocated_gb": 2.1269359588623047,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.008917171973735094,
+      "base_image_rank_sec": 0.04461148602422327,
+      "base_image_sec": 0.05352865799795836,
+      "s2_text_prepare_sec": 108.61358570598532,
+      "s2_text_rank_sec": 224.30637316405773,
+      "s2_text_sec": 332.91995887004305,
+      "fusion_hydration_restoration_sec": 2.8884937530383468,
+      "total_sec": 335.86198128107935,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 3,
+      "claim_index": 52,
+      "claim_id": "averi_val_0052",
+      "peak_cuda": {
+        "allocated_gb": 2.125338077545166,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.25980563007760793,
+      "base_image_rank_sec": 0.24035801202990115,
+      "base_image_sec": 0.5001636421075091,
+      "s2_text_prepare_sec": 39.4765064320527,
+      "s2_text_rank_sec": 76.8517263669055,
+      "s2_text_sec": 116.3282327989582,
+      "fusion_hydration_restoration_sec": 0.7520484200213104,
+      "total_sec": 117.58044486108702,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 53,
+      "claim_id": "averi_val_0053",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.00016114197205752134,
+      "base_image_rank_sec": 7.563969120383263e-06,
+      "base_image_sec": 0.0001687059411779046,
+      "s2_text_prepare_sec": 48.61691010801587,
+      "s2_text_rank_sec": 77.73854937194847,
+      "s2_text_sec": 126.35545947996434,
+      "fusion_hydration_restoration_sec": 8.507641455973499,
+      "total_sec": 134.86326964187901,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 54,
+      "claim_id": "averi_val_0054",
+      "peak_cuda": {
+        "allocated_gb": 2.125338077545166,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.6542102440726012,
+      "base_image_rank_sec": 0.6347838270012289,
+      "base_image_sec": 1.2889940710738301,
+      "s2_text_prepare_sec": 18.98798831703607,
+      "s2_text_rank_sec": 24.525632345001213,
+      "s2_text_sec": 43.51362066203728,
+      "fusion_hydration_restoration_sec": 0.6173799809766933,
+      "total_sec": 45.41999471408781,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 55,
+      "claim_id": "averi_val_0055",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.5095222330419347,
+      "base_image_rank_sec": 0.5302153630182147,
+      "base_image_sec": 1.0397375960601494,
+      "s2_text_prepare_sec": 85.20220163289923,
+      "s2_text_rank_sec": 183.09216823405586,
+      "s2_text_sec": 268.2943698669551,
+      "fusion_hydration_restoration_sec": 1.1628218910191208,
+      "total_sec": 270.49692935403436,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 4,
+      "claim_index": 56,
+      "claim_id": "averi_val_0056",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.019092623027972877,
+      "base_image_rank_sec": 0.031718862941488624,
+      "base_image_sec": 0.0508114859694615,
+      "s2_text_prepare_sec": 50.97476811800152,
+      "s2_text_rank_sec": 72.91509356803726,
+      "s2_text_sec": 123.88986168603878,
+      "fusion_hydration_restoration_sec": 25.125594434095547,
+      "total_sec": 149.0662676061038,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 57,
+      "claim_id": "averi_val_0057",
+      "peak_cuda": {
+        "allocated_gb": 2.125338077545166,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.03827159106731415,
+      "base_image_rank_sec": 0.04736122500617057,
+      "base_image_sec": 0.08563281607348472,
+      "s2_text_prepare_sec": 35.015242369961925,
+      "s2_text_rank_sec": 40.879372273921035,
+      "s2_text_sec": 75.89461464388296,
+      "fusion_hydration_restoration_sec": 1.6675426040310413,
+      "total_sec": 77.64779006398749,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 58,
+      "claim_id": "averi_val_0058",
+      "peak_cuda": {
+        "allocated_gb": 2.156611919403076,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.00020308105740696192,
+      "base_image_rank_sec": 6.663030944764614e-06,
+      "base_image_sec": 0.00020974408835172653,
+      "s2_text_prepare_sec": 54.368974728975445,
+      "s2_text_rank_sec": 71.8495610319078,
+      "s2_text_sec": 126.21853576088324,
+      "fusion_hydration_restoration_sec": 12.339877251069993,
+      "total_sec": 138.5586227560416,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 59,
+      "claim_id": "averi_val_0059",
+      "peak_cuda": {
+        "allocated_gb": 2.125338077545166,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.04772495897486806,
+      "base_image_rank_sec": 0.056801780010573566,
+      "base_image_sec": 0.10452673898544163,
+      "s2_text_prepare_sec": 37.15135784505401,
+      "s2_text_rank_sec": 60.29512255103327,
+      "s2_text_sec": 97.44648039608728,
+      "fusion_hydration_restoration_sec": 1.6652953260345384,
+      "total_sec": 99.21630246110726,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 60,
+      "claim_id": "averi_val_0060",
+      "peak_cuda": {
+        "allocated_gb": 2.171999454498291,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.2590242080623284,
+      "base_image_rank_sec": 0.236686268937774,
+      "base_image_sec": 0.4957104770001024,
+      "s2_text_prepare_sec": 54.02209497790318,
+      "s2_text_rank_sec": 71.00406638393179,
+      "s2_text_sec": 125.02616136183497,
+      "fusion_hydration_restoration_sec": 0.36866620706859976,
+      "total_sec": 125.89053804590367,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 61,
+      "claim_id": "averi_val_0061",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.02684573398437351,
+      "base_image_rank_sec": 0.04422231100033969,
+      "base_image_sec": 0.0710680449847132,
+      "s2_text_prepare_sec": 86.49087358894758,
+      "s2_text_rank_sec": 151.64431421703193,
+      "s2_text_sec": 238.1351878059795,
+      "fusion_hydration_restoration_sec": 7.802875714958645,
+      "total_sec": 246.00913156592287,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 62,
+      "claim_id": "averi_val_0062",
+      "peak_cuda": {
+        "allocated_gb": 2.162107467651367,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.10561703809071332,
+      "base_image_rank_sec": 0.09962379292119294,
+      "base_image_sec": 0.20524083101190627,
+      "s2_text_prepare_sec": 70.63587205600925,
+      "s2_text_rank_sec": 106.18926571798511,
+      "s2_text_sec": 176.82513777399436,
+      "fusion_hydration_restoration_sec": 1.4499694439582527,
+      "total_sec": 178.48034804896452,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 63,
+      "claim_id": "averi_val_0063",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.4060053820721805,
+      "base_image_rank_sec": 0.35977810504846275,
+      "base_image_sec": 0.7657834871206433,
+      "s2_text_prepare_sec": 32.37988454999868,
+      "s2_text_rank_sec": 40.15727424400393,
+      "s2_text_sec": 72.53715879400261,
+      "fusion_hydration_restoration_sec": 0.9339765299810097,
+      "total_sec": 74.23691881110426,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 64,
+      "claim_id": "averi_val_0064",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.049070924054831266,
+      "base_image_rank_sec": 0.054271185072138906,
+      "base_image_sec": 0.10334210912697017,
+      "s2_text_prepare_sec": 33.195255514932796,
+      "s2_text_rank_sec": 49.095700080972165,
+      "s2_text_sec": 82.29095559590496,
+      "fusion_hydration_restoration_sec": 1.6209622010355815,
+      "total_sec": 84.01525990606751,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 65,
+      "claim_id": "averi_val_0065",
+      "peak_cuda": {
+        "allocated_gb": 2.171999454498291,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.036066635977476835,
+      "base_image_rank_sec": 0.06692981591913849,
+      "base_image_sec": 0.10299645189661533,
+      "s2_text_prepare_sec": 79.37045204895549,
+      "s2_text_rank_sec": 125.1301406029379,
+      "s2_text_sec": 204.50059265189338,
+      "fusion_hydration_restoration_sec": 1.3360001120017841,
+      "total_sec": 205.93958921579178,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 66,
+      "claim_id": "averi_val_0066",
+      "peak_cuda": {
+        "allocated_gb": 2.171999454498291,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.22089724196121097,
+      "base_image_rank_sec": 0.20440739602781832,
+      "base_image_sec": 0.4253046379890293,
+      "s2_text_prepare_sec": 88.37283749005292,
+      "s2_text_rank_sec": 185.49464307108428,
+      "s2_text_sec": 273.8674805611372,
+      "fusion_hydration_restoration_sec": 0.5869658800074831,
+      "total_sec": 274.8797510791337,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 67,
+      "claim_id": "averi_val_0067",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.03229058301076293,
+      "base_image_rank_sec": 0.042632624972611666,
+      "base_image_sec": 0.0749232079833746,
+      "s2_text_prepare_sec": 89.94230052502826,
+      "s2_text_rank_sec": 120.64407530904282,
+      "s2_text_sec": 210.58637583407108,
+      "fusion_hydration_restoration_sec": 2.3492303960956633,
+      "total_sec": 213.01052943815012,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 68,
+      "claim_id": "averi_val_0068",
+      "peak_cuda": {
+        "allocated_gb": 2.151116371154785,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.026409187936224043,
+      "base_image_rank_sec": 0.037197434925474226,
+      "base_image_sec": 0.06360662286169827,
+      "s2_text_prepare_sec": 102.04321957100183,
+      "s2_text_rank_sec": 130.63207814097404,
+      "s2_text_sec": 232.67529771197587,
+      "fusion_hydration_restoration_sec": 12.276194390957244,
+      "total_sec": 245.01509872579481,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 69,
+      "claim_id": "averi_val_0069",
+      "peak_cuda": {
+        "allocated_gb": 2.1269359588623047,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.04723254300188273,
+      "base_image_rank_sec": 0.20028126798570156,
+      "base_image_sec": 0.2475138109875843,
+      "s2_text_prepare_sec": 52.16382647608407,
+      "s2_text_rank_sec": 68.54950724798255,
+      "s2_text_sec": 120.71333372406662,
+      "fusion_hydration_restoration_sec": 2.111827205051668,
+      "total_sec": 123.07267474010587,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 4,
+      "claim_index": 70,
+      "claim_id": "averi_val_0070",
+      "peak_cuda": {
+        "allocated_gb": 2.171999454498291,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.07448915694840252,
+      "base_image_rank_sec": 0.08581374899949878,
+      "base_image_sec": 0.1603029059479013,
+      "s2_text_prepare_sec": 64.61057061702013,
+      "s2_text_rank_sec": 118.8499123849906,
+      "s2_text_sec": 183.46048300201073,
+      "fusion_hydration_restoration_sec": 1.1315643099369481,
+      "total_sec": 184.75235021789558,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 71,
+      "claim_id": "averi_val_0071",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.3206299599260092,
+      "base_image_rank_sec": 0.4310398290399462,
+      "base_image_sec": 0.7516697889659554,
+      "s2_text_prepare_sec": 39.76859216403682,
+      "s2_text_rank_sec": 52.79120698396582,
+      "s2_text_sec": 92.55979914800264,
+      "fusion_hydration_restoration_sec": 0.6477813030360267,
+      "total_sec": 93.95925024000462,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 2,
+      "claim_index": 72,
+      "claim_id": "averi_val_0072",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.09941624803468585,
+      "base_image_rank_sec": 0.10196372296195477,
+      "base_image_sec": 0.20137997099664062,
+      "s2_text_prepare_sec": 55.96709664701484,
+      "s2_text_rank_sec": 85.45768074889202,
+      "s2_text_sec": 141.42477739590686,
+      "fusion_hydration_restoration_sec": 5.436173002002761,
+      "total_sec": 147.06233036890626,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 73,
+      "claim_id": "averi_val_0073",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.06735504500102252,
+      "base_image_rank_sec": 0.07097065297421068,
+      "base_image_sec": 0.1383256979752332,
+      "s2_text_prepare_sec": 74.93980715295766,
+      "s2_text_rank_sec": 98.5001646640012,
+      "s2_text_sec": 173.43997181695886,
+      "fusion_hydration_restoration_sec": 1.856645682011731,
+      "total_sec": 175.43494319694582,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 74,
+      "claim_id": "averi_val_0074",
+      "peak_cuda": {
+        "allocated_gb": 2.171999454498291,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.00020859099458903074,
+      "base_image_rank_sec": 7.162918336689472e-06,
+      "base_image_sec": 0.00021575391292572021,
+      "s2_text_prepare_sec": 53.211380932014436,
+      "s2_text_rank_sec": 62.914000915014185,
+      "s2_text_sec": 116.12538184702862,
+      "fusion_hydration_restoration_sec": 4.277051455923356,
+      "total_sec": 120.4026490568649,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 75,
+      "claim_id": "averi_val_0075",
+      "peak_cuda": {
+        "allocated_gb": 2.125338077545166,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.3344013770110905,
+      "base_image_rank_sec": 0.3032806160626933,
+      "base_image_sec": 0.6376819930737838,
+      "s2_text_prepare_sec": 62.39574666193221,
+      "s2_text_rank_sec": 82.66127270797733,
+      "s2_text_sec": 145.05701936990954,
+      "fusion_hydration_restoration_sec": 1.157603486906737,
+      "total_sec": 146.85230484989006,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 76,
+      "claim_id": "averi_val_0076",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.005174526944756508,
+      "base_image_rank_sec": 0.025076410034671426,
+      "base_image_sec": 0.030250936979427934,
+      "s2_text_prepare_sec": 99.42520947894081,
+      "s2_text_rank_sec": 200.5199346729787,
+      "s2_text_sec": 299.9451441519195,
+      "fusion_hydration_restoration_sec": 7.836813770933077,
+      "total_sec": 307.812208859832,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 77,
+      "claim_id": "averi_val_0077",
+      "peak_cuda": {
+        "allocated_gb": 2.125338077545166,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.012239033007062972,
+      "base_image_rank_sec": 0.025699261925183237,
+      "base_image_sec": 0.03793829493224621,
+      "s2_text_prepare_sec": 88.17948713700753,
+      "s2_text_rank_sec": 134.3314381459495,
+      "s2_text_sec": 222.51092528295703,
+      "fusion_hydration_restoration_sec": 51.42629380105063,
+      "total_sec": 273.9751573789399,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 78,
+      "claim_id": "averi_val_0078",
+      "peak_cuda": {
+        "allocated_gb": 2.125338077545166,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.19092072802595794,
+      "base_image_rank_sec": 0.3049807099159807,
+      "base_image_sec": 0.49590143794193864,
+      "s2_text_prepare_sec": 45.349196810042486,
+      "s2_text_rank_sec": 59.95986289496068,
+      "s2_text_sec": 105.30905970500316,
+      "fusion_hydration_restoration_sec": 0.34045969403814524,
+      "total_sec": 106.14542083698325,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 79,
+      "claim_id": "averi_val_0079",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.3250650919508189,
+      "base_image_rank_sec": 0.3405020140344277,
+      "base_image_sec": 0.6655671059852466,
+      "s2_text_prepare_sec": 100.6803292009281,
+      "s2_text_rank_sec": 141.39496361697093,
+      "s2_text_sec": 242.07529281789903,
+      "fusion_hydration_restoration_sec": 1.0400720610050485,
+      "total_sec": 243.78093198488932,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 3,
+      "claim_index": 80,
+      "claim_id": "averi_val_0080",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.008931582910008729,
+      "base_image_rank_sec": 0.021777551039122045,
+      "base_image_sec": 0.030709133949130774,
+      "s2_text_prepare_sec": 90.44662195898127,
+      "s2_text_rank_sec": 129.703817039961,
+      "s2_text_sec": 220.15043899894226,
+      "fusion_hydration_restoration_sec": 6.218043116969056,
+      "total_sec": 226.39919124986045,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 81,
+      "claim_id": "averi_val_0081",
+      "peak_cuda": {
+        "allocated_gb": 2.125338077545166,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.04614488105289638,
+      "base_image_rank_sec": 0.06876710103824735,
+      "base_image_sec": 0.11491198209114373,
+      "s2_text_prepare_sec": 46.470045480062254,
+      "s2_text_rank_sec": 61.446551562985405,
+      "s2_text_sec": 107.91659704304766,
+      "fusion_hydration_restoration_sec": 3.785879433969967,
+      "total_sec": 111.81738845910877,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 82,
+      "claim_id": "averi_val_0082",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.4298081749584526,
+      "base_image_rank_sec": 0.44343667302746326,
+      "base_image_sec": 0.8732448479859158,
+      "s2_text_prepare_sec": 175.5854814159684,
+      "s2_text_rank_sec": 295.17876490193885,
+      "s2_text_sec": 470.76424631790724,
+      "fusion_hydration_restoration_sec": 0.6477366369217634,
+      "total_sec": 472.2852278028149,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 2,
+      "claim_index": 83,
+      "claim_id": "averi_val_0083",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.0011604410829022527,
+      "base_image_rank_sec": 0.018729905947111547,
+      "base_image_sec": 0.0198903470300138,
+      "s2_text_prepare_sec": 78.54878888500389,
+      "s2_text_rank_sec": 132.74375410808716,
+      "s2_text_sec": 211.29254299309105,
+      "fusion_hydration_restoration_sec": 13.038135869894177,
+      "total_sec": 224.35056921001524,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 84,
+      "claim_id": "averi_val_0084",
+      "peak_cuda": {
+        "allocated_gb": 2.125338077545166,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.024325859965756536,
+      "base_image_rank_sec": 0.04814932099543512,
+      "base_image_sec": 0.07247518096119165,
+      "s2_text_prepare_sec": 40.95408362289891,
+      "s2_text_rank_sec": 57.457745144027285,
+      "s2_text_sec": 98.41182876692619,
+      "fusion_hydration_restoration_sec": 1.4475768769625574,
+      "total_sec": 99.93188082484994,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 85,
+      "claim_id": "averi_val_0085",
+      "peak_cuda": {
+        "allocated_gb": 2.171999454498291,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.3309089809190482,
+      "base_image_rank_sec": 0.425369541044347,
+      "base_image_sec": 0.7562785219633952,
+      "s2_text_prepare_sec": 83.08388936601114,
+      "s2_text_rank_sec": 104.83320470689796,
+      "s2_text_sec": 187.9170940729091,
+      "fusion_hydration_restoration_sec": 0.8886824040673673,
+      "total_sec": 189.56205499893986,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 4,
+      "claim_index": 86,
+      "claim_id": "averi_val_0086",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.1512457940261811,
+      "base_image_rank_sec": 0.15926400595344603,
+      "base_image_sec": 0.31050979997962713,
+      "s2_text_prepare_sec": 48.747199597069994,
+      "s2_text_rank_sec": 65.44604399905074,
+      "s2_text_sec": 114.19324359612074,
+      "fusion_hydration_restoration_sec": 0.37394975300412625,
+      "total_sec": 114.87770314910449,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 87,
+      "claim_id": "averi_val_0087",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.03198630700353533,
+      "base_image_rank_sec": 0.04043650801759213,
+      "base_image_sec": 0.07242281502112746,
+      "s2_text_prepare_sec": 38.26254683197476,
+      "s2_text_rank_sec": 52.180994750000536,
+      "s2_text_sec": 90.4435415819753,
+      "fusion_hydration_restoration_sec": 14.69232444302179,
+      "total_sec": 105.20828884001821,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 88,
+      "claim_id": "averi_val_0088",
+      "peak_cuda": {
+        "allocated_gb": 2.156611919403076,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.5550357949687168,
+      "base_image_rank_sec": 0.5785349339712411,
+      "base_image_sec": 1.133570728939958,
+      "s2_text_prepare_sec": 41.16065706592053,
+      "s2_text_rank_sec": 63.80398784507997,
+      "s2_text_sec": 104.9646449110005,
+      "fusion_hydration_restoration_sec": 1.075964136980474,
+      "total_sec": 107.17417977692094,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 89,
+      "claim_id": "averi_val_0089",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.35294294101186097,
+      "base_image_rank_sec": 0.34747844003140926,
+      "base_image_sec": 0.7004213810432702,
+      "s2_text_prepare_sec": 107.60083752195351,
+      "s2_text_rank_sec": 260.86481026606634,
+      "s2_text_sec": 368.46564778801985,
+      "fusion_hydration_restoration_sec": 0.44220917695201933,
+      "total_sec": 369.60827834601514,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 90,
+      "claim_id": "averi_val_0090",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.2508778109913692,
+      "base_image_rank_sec": 0.3660459549864754,
+      "base_image_sec": 0.6169237659778446,
+      "s2_text_prepare_sec": 106.65675684192684,
+      "s2_text_rank_sec": 135.17922039795667,
+      "s2_text_sec": 241.8359772398835,
+      "fusion_hydration_restoration_sec": 1.7175874990643933,
+      "total_sec": 244.17048850492574,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 3,
+      "claim_index": 91,
+      "claim_id": "averi_val_0091",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.36517997295595706,
+      "base_image_rank_sec": 0.35303174890577793,
+      "base_image_sec": 0.718211721861735,
+      "s2_text_prepare_sec": 33.92177947505843,
+      "s2_text_rank_sec": 47.97202861402184,
+      "s2_text_sec": 81.89380808908027,
+      "fusion_hydration_restoration_sec": 1.0588929449440911,
+      "total_sec": 83.67091275588609,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 4,
+      "claim_index": 92,
+      "claim_id": "averi_val_0092",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.16257118992507458,
+      "base_image_rank_sec": 0.16931260202545673,
+      "base_image_sec": 0.3318837919505313,
+      "s2_text_prepare_sec": 257.747864189907,
+      "s2_text_rank_sec": 437.73165054398123,
+      "s2_text_sec": 695.4795147338882,
+      "fusion_hydration_restoration_sec": 0.49602985894307494,
+      "total_sec": 696.3074283847818,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 93,
+      "claim_id": "averi_val_0093",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.04915064398664981,
+      "base_image_rank_sec": 0.07852257997728884,
+      "base_image_sec": 0.12767322396393865,
+      "s2_text_prepare_sec": 58.83332481700927,
+      "s2_text_rank_sec": 76.70292067003902,
+      "s2_text_sec": 135.5362454870483,
+      "fusion_hydration_restoration_sec": 10.350874805008061,
+      "total_sec": 146.0147935160203,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 94,
+      "claim_id": "averi_val_0094",
+      "peak_cuda": {
+        "allocated_gb": 2.171999454498291,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 3.0963314240798354,
+      "base_image_rank_sec": 2.658981348038651,
+      "base_image_sec": 5.7553127721184865,
+      "s2_text_prepare_sec": 79.64114967896603,
+      "s2_text_rank_sec": 167.93402617494576,
+      "s2_text_sec": 247.5751758539118,
+      "fusion_hydration_restoration_sec": 1.3393123779678717,
+      "total_sec": 254.66980100399815,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 95,
+      "claim_id": "averi_val_0095",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.10440072999335825,
+      "base_image_rank_sec": 0.11226262501440942,
+      "base_image_sec": 0.21666335500776768,
+      "s2_text_prepare_sec": 25.842165048001334,
+      "s2_text_rank_sec": 46.30738544801716,
+      "s2_text_sec": 72.14955049601849,
+      "fusion_hydration_restoration_sec": 0.4305676470976323,
+      "total_sec": 72.79678149812389,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 96,
+      "claim_id": "averi_val_0096",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.10557529900688678,
+      "base_image_rank_sec": 0.10998371592722833,
+      "base_image_sec": 0.2155590149341151,
+      "s2_text_prepare_sec": 24.877901647938415,
+      "s2_text_rank_sec": 31.81189421901945,
+      "s2_text_sec": 56.689795866957866,
+      "fusion_hydration_restoration_sec": 0.4316002579871565,
+      "total_sec": 57.33695513987914,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 97,
+      "claim_id": "averi_val_0097",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.0022201179526746273,
+      "base_image_rank_sec": 0.018893557018600404,
+      "base_image_sec": 0.02111367497127503,
+      "s2_text_prepare_sec": 46.82361155899707,
+      "s2_text_rank_sec": 66.48010475002229,
+      "s2_text_sec": 113.30371630901936,
+      "fusion_hydration_restoration_sec": 20.29703931894619,
+      "total_sec": 133.62186930293683,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 98,
+      "claim_id": "averi_val_0098",
+      "peak_cuda": {
+        "allocated_gb": 2.125338077545166,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.016927534015849233,
+      "base_image_rank_sec": 0.04258233401924372,
+      "base_image_sec": 0.05950986803509295,
+      "s2_text_prepare_sec": 47.556735807913356,
+      "s2_text_rank_sec": 63.98508394602686,
+      "s2_text_sec": 111.54181975394022,
+      "fusion_hydration_restoration_sec": 1.2777752870460972,
+      "total_sec": 112.87910490902141,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 99,
+      "claim_id": "averi_val_0099",
+      "peak_cuda": {
+        "allocated_gb": 2.171999454498291,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.32568479294423014,
+      "base_image_rank_sec": 0.32223210600204766,
+      "base_image_sec": 0.6479168989462778,
+      "s2_text_prepare_sec": 133.87550293200184,
+      "s2_text_rank_sec": 380.256934929057,
+      "s2_text_sec": 514.1324378610589,
+      "fusion_hydration_restoration_sec": 0.45503042999189347,
+      "total_sec": 515.235385189997,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 100,
+      "claim_id": "averi_val_0100",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.014395243022590876,
+      "base_image_rank_sec": 0.02970007003750652,
+      "base_image_sec": 0.044095313060097396,
+      "s2_text_prepare_sec": 144.77111540106125,
+      "s2_text_rank_sec": 336.7172961620381,
+      "s2_text_sec": 481.48841156309936,
+      "fusion_hydration_restoration_sec": 3.06445465690922,
+      "total_sec": 484.5969615330687,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 101,
+      "claim_id": "averi_val_0101",
+      "peak_cuda": {
+        "allocated_gb": 2.125338077545166,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.012596262036822736,
+      "base_image_rank_sec": 0.03634672600310296,
+      "base_image_sec": 0.048942988039925694,
+      "s2_text_prepare_sec": 50.11928290897049,
+      "s2_text_rank_sec": 112.86122294899542,
+      "s2_text_sec": 162.9805058579659,
+      "fusion_hydration_restoration_sec": 1.2733885049819946,
+      "total_sec": 164.30283735098783,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 102,
+      "claim_id": "averi_val_0102",
+      "peak_cuda": {
+        "allocated_gb": 2.151116371154785,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.00021049391943961382,
+      "base_image_rank_sec": 6.901915185153484e-06,
+      "base_image_sec": 0.0002173958346247673,
+      "s2_text_prepare_sec": 56.78593110607471,
+      "s2_text_rank_sec": 77.80012432707008,
+      "s2_text_sec": 134.5860554331448,
+      "fusion_hydration_restoration_sec": 7.3613203869899735,
+      "total_sec": 141.9475932159694,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 103,
+      "claim_id": "averi_val_0103",
+      "peak_cuda": {
+        "allocated_gb": 2.125338077545166,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.36971702601294965,
+      "base_image_rank_sec": 0.37739797204267234,
+      "base_image_sec": 0.747114998055622,
+      "s2_text_prepare_sec": 139.88698861200828,
+      "s2_text_rank_sec": 263.268754107994,
+      "s2_text_sec": 403.1557427200023,
+      "fusion_hydration_restoration_sec": 0.6182645099470392,
+      "total_sec": 404.52112222800497,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 2,
+      "claim_index": 104,
+      "claim_id": "averi_val_0104",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.18128555302973837,
+      "base_image_rank_sec": 0.195498924003914,
+      "base_image_sec": 0.37678447703365237,
+      "s2_text_prepare_sec": 28.584627050091513,
+      "s2_text_rank_sec": 37.96056357002817,
+      "s2_text_sec": 66.54519062011968,
+      "fusion_hydration_restoration_sec": 0.4373213470680639,
+      "total_sec": 67.3592964442214,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 105,
+      "claim_id": "averi_val_0105",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.013862113002687693,
+      "base_image_rank_sec": 0.04322194098494947,
+      "base_image_sec": 0.05708405398763716,
+      "s2_text_prepare_sec": 88.84892303601373,
+      "s2_text_rank_sec": 189.27899276802782,
+      "s2_text_sec": 278.12791580404155,
+      "fusion_hydration_restoration_sec": 1.8976233239518479,
+      "total_sec": 280.08262318198103,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 106,
+      "claim_id": "averi_val_0106",
+      "peak_cuda": {
+        "allocated_gb": 2.171999454498291,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.1255877650110051,
+      "base_image_rank_sec": 0.1288933550240472,
+      "base_image_sec": 0.2544811200350523,
+      "s2_text_prepare_sec": 107.07427225401625,
+      "s2_text_rank_sec": 144.88280472694896,
+      "s2_text_sec": 251.9570769809652,
+      "fusion_hydration_restoration_sec": 0.35773956403136253,
+      "total_sec": 252.56929766503163,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 107,
+      "claim_id": "averi_val_0107",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.10977773403283209,
+      "base_image_rank_sec": 0.12428356194868684,
+      "base_image_sec": 0.23406129598151892,
+      "s2_text_prepare_sec": 63.88033112999983,
+      "s2_text_rank_sec": 85.5819650440244,
+      "s2_text_sec": 149.46229617402423,
+      "fusion_hydration_restoration_sec": 0.9530588840134442,
+      "total_sec": 150.6494163540192,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 2,
+      "claim_index": 108,
+      "claim_id": "averi_val_0108",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.12562612595502287,
+      "base_image_rank_sec": 0.13899180898442864,
+      "base_image_sec": 0.2646179349394515,
+      "s2_text_prepare_sec": 74.14841286290903,
+      "s2_text_rank_sec": 96.92938293598127,
+      "s2_text_sec": 171.0777957988903,
+      "fusion_hydration_restoration_sec": 0.39076768897939473,
+      "total_sec": 171.73318142280914,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 109,
+      "claim_id": "averi_val_0109",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.05134165892377496,
+      "base_image_rank_sec": 0.06701972906012088,
+      "base_image_sec": 0.11836138798389584,
+      "s2_text_prepare_sec": 46.79888977401424,
+      "s2_text_rank_sec": 85.28023972397204,
+      "s2_text_sec": 132.0791294979863,
+      "fusion_hydration_restoration_sec": 59.07742376695387,
+      "total_sec": 191.27491465292405,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 110,
+      "claim_id": "averi_val_0110",
+      "peak_cuda": {
+        "allocated_gb": 2.171999454498291,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.017164040938951075,
+      "base_image_rank_sec": 0.03437372902408242,
+      "base_image_sec": 0.0515377699630335,
+      "s2_text_prepare_sec": 48.38156514603179,
+      "s2_text_rank_sec": 66.84459235903341,
+      "s2_text_sec": 115.2261575050652,
+      "fusion_hydration_restoration_sec": 12.1222313180333,
+      "total_sec": 127.39992659306154,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 111,
+      "claim_id": "averi_val_0111",
+      "peak_cuda": {
+        "allocated_gb": 2.134629726409912,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.02881766005884856,
+      "base_image_rank_sec": 0.04091902798973024,
+      "base_image_sec": 0.0697366880485788,
+      "s2_text_prepare_sec": 34.97624300303869,
+      "s2_text_rank_sec": 54.54234633699525,
+      "s2_text_sec": 89.51858934003394,
+      "fusion_hydration_restoration_sec": 2.198830482084304,
+      "total_sec": 91.78715651016682,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 112,
+      "claim_id": "averi_val_0112",
+      "peak_cuda": {
+        "allocated_gb": 2.134629726409912,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.37954583507962525,
+      "base_image_rank_sec": 0.3922813389217481,
+      "base_image_sec": 0.7718271740013734,
+      "s2_text_prepare_sec": 56.990533257019706,
+      "s2_text_rank_sec": 79.80877480097115,
+      "s2_text_sec": 136.79930805799086,
+      "fusion_hydration_restoration_sec": 0.6049216779647395,
+      "total_sec": 138.17605690995697,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 2,
+      "claim_index": 113,
+      "claim_id": "averi_val_0113",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.10911247704643756,
+      "base_image_rank_sec": 0.1220251729246229,
+      "base_image_sec": 0.23113764997106045,
+      "s2_text_prepare_sec": 73.55162787798326,
+      "s2_text_rank_sec": 94.34896427497733,
+      "s2_text_sec": 167.9005921529606,
+      "fusion_hydration_restoration_sec": 4.303267840063199,
+      "total_sec": 172.43499764299486,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 114,
+      "claim_id": "averi_val_0114",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.7038509260164574,
+      "base_image_rank_sec": 0.6434212290914729,
+      "base_image_sec": 1.3472721551079303,
+      "s2_text_prepare_sec": 127.01711531192996,
+      "s2_text_rank_sec": 226.91980791802052,
+      "s2_text_sec": 353.9369232299505,
+      "fusion_hydration_restoration_sec": 0.5128138230647892,
+      "total_sec": 355.7970092081232,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 3,
+      "claim_index": 115,
+      "claim_id": "averi_val_0115",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.005090444930829108,
+      "base_image_rank_sec": 0.02709510992281139,
+      "base_image_sec": 0.0321855548536405,
+      "s2_text_prepare_sec": 69.93553890706971,
+      "s2_text_rank_sec": 102.65189569198992,
+      "s2_text_sec": 172.58743459905963,
+      "fusion_hydration_restoration_sec": 63.15351102198474,
+      "total_sec": 235.77313117589802,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 116,
+      "claim_id": "averi_val_0116",
+      "peak_cuda": {
+        "allocated_gb": 2.125338077545166,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.01165564195252955,
+      "base_image_rank_sec": 0.03668774489779025,
+      "base_image_sec": 0.0483433868503198,
+      "s2_text_prepare_sec": 65.41840102500282,
+      "s2_text_rank_sec": 86.79266735201236,
+      "s2_text_sec": 152.21106837701518,
+      "fusion_hydration_restoration_sec": 29.893635733053088,
+      "total_sec": 182.1530474969186,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 2,
+      "claim_index": 117,
+      "claim_id": "averi_val_0117",
+      "peak_cuda": {
+        "allocated_gb": 2.125338077545166,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.34895925410091877,
+      "base_image_rank_sec": 0.4109520650235936,
+      "base_image_sec": 0.7599113191245124,
+      "s2_text_prepare_sec": 64.76451269397512,
+      "s2_text_rank_sec": 86.34279040200636,
+      "s2_text_sec": 151.10730309598148,
+      "fusion_hydration_restoration_sec": 0.9217034890316427,
+      "total_sec": 152.78891790413763,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 4,
+      "claim_index": 118,
+      "claim_id": "averi_val_0118",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.07081519602797925,
+      "base_image_rank_sec": 0.08997560199350119,
+      "base_image_sec": 0.16079079802148044,
+      "s2_text_prepare_sec": 76.63064843404572,
+      "s2_text_rank_sec": 108.51587471098173,
+      "s2_text_sec": 185.14652314502746,
+      "fusion_hydration_restoration_sec": 32.11359780805651,
+      "total_sec": 217.42091175110545,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 2,
+      "claim_index": 119,
+      "claim_id": "averi_val_0119",
+      "peak_cuda": {
+        "allocated_gb": 2.171999454498291,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.2676568340975791,
+      "base_image_rank_sec": 0.277744077029638,
+      "base_image_sec": 0.5454009111272171,
+      "s2_text_prepare_sec": 43.59700435097329,
+      "s2_text_rank_sec": 62.999751769937575,
+      "s2_text_sec": 106.59675612091087,
+      "fusion_hydration_restoration_sec": 0.7418692919891328,
+      "total_sec": 107.88402632402722,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 2,
+      "claim_index": 120,
+      "claim_id": "averi_val_0120",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.08992327190935612,
+      "base_image_rank_sec": 0.08703010296449065,
+      "base_image_sec": 0.17695337487384677,
+      "s2_text_prepare_sec": 44.07822609995492,
+      "s2_text_rank_sec": 60.616510691004805,
+      "s2_text_sec": 104.69473679095972,
+      "fusion_hydration_restoration_sec": 1.2360181770054623,
+      "total_sec": 106.10770834283903,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 121,
+      "claim_id": "averi_val_0121",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.03407268295995891,
+      "base_image_rank_sec": 0.07046978990547359,
+      "base_image_sec": 0.1045424728654325,
+      "s2_text_prepare_sec": 32.64352874690667,
+      "s2_text_rank_sec": 46.06667066598311,
+      "s2_text_sec": 78.71019941288978,
+      "fusion_hydration_restoration_sec": 0.9845673320814967,
+      "total_sec": 79.79930921783671,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 3,
+      "claim_index": 122,
+      "claim_id": "averi_val_0122",
+      "peak_cuda": {
+        "allocated_gb": 2.171999454498291,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.00589627493172884,
+      "base_image_rank_sec": 0.021482408978044987,
+      "base_image_sec": 0.027378683909773827,
+      "s2_text_prepare_sec": 44.51545681396965,
+      "s2_text_rank_sec": 69.50475072406698,
+      "s2_text_sec": 114.02020753803663,
+      "fusion_hydration_restoration_sec": 2.702943144016899,
+      "total_sec": 116.7505293659633,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 123,
+      "claim_id": "averi_val_0123",
+      "peak_cuda": {
+        "allocated_gb": 2.125338077545166,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.04942330496851355,
+      "base_image_rank_sec": 0.05729072098620236,
+      "base_image_sec": 0.10671402595471591,
+      "s2_text_prepare_sec": 161.12721436400898,
+      "s2_text_rank_sec": 226.9459277909482,
+      "s2_text_sec": 388.07314215495717,
+      "fusion_hydration_restoration_sec": 82.4346325499937,
+      "total_sec": 470.6144887309056,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 124,
+      "claim_id": "averi_val_0124",
+      "peak_cuda": {
+        "allocated_gb": 2.171999454498291,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.10977484192699194,
+      "base_image_rank_sec": 0.11645621596835554,
+      "base_image_sec": 0.22623105789534748,
+      "s2_text_prepare_sec": 95.84462876198813,
+      "s2_text_rank_sec": 158.76732231106143,
+      "s2_text_sec": 254.61195107304957,
+      "fusion_hydration_restoration_sec": 95.9027608979959,
+      "total_sec": 350.7409430289408,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 125,
+      "claim_id": "averi_val_0125",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.003951110993511975,
+      "base_image_rank_sec": 0.029875546926632524,
+      "base_image_sec": 0.0338266579201445,
+      "s2_text_prepare_sec": 76.03737236896995,
+      "s2_text_rank_sec": 193.0346898949938,
+      "s2_text_sec": 269.07206226396374,
+      "fusion_hydration_restoration_sec": 19.44208124501165,
+      "total_sec": 288.54797016689554,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 126,
+      "claim_id": "averi_val_0126",
+      "peak_cuda": {
+        "allocated_gb": 2.125338077545166,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.2589243761030957,
+      "base_image_rank_sec": 0.2336216130061075,
+      "base_image_sec": 0.4925459891092032,
+      "s2_text_prepare_sec": 53.14176961197518,
+      "s2_text_rank_sec": 70.07644511002582,
+      "s2_text_sec": 123.218214722001,
+      "fusion_hydration_restoration_sec": 0.6596141770714894,
+      "total_sec": 124.37037488818169,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 127,
+      "claim_id": "averi_val_0127",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.022871979046612978,
+      "base_image_rank_sec": 0.04585661995224655,
+      "base_image_sec": 0.06872859899885952,
+      "s2_text_prepare_sec": 100.92087910394184,
+      "s2_text_rank_sec": 155.8082232590532,
+      "s2_text_sec": 256.72910236299504,
+      "fusion_hydration_restoration_sec": 5.039882777025923,
+      "total_sec": 261.8377137390198,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 128,
+      "claim_id": "averi_val_0128",
+      "peak_cuda": {
+        "allocated_gb": 2.171999454498291,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.0029304890194907784,
+      "base_image_rank_sec": 0.04519465006887913,
+      "base_image_sec": 0.048125139088369906,
+      "s2_text_prepare_sec": 21.46315039100591,
+      "s2_text_rank_sec": 28.57928067201283,
+      "s2_text_sec": 50.04243106301874,
+      "fusion_hydration_restoration_sec": 2.972368470975198,
+      "total_sec": 53.06292467308231,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 2,
+      "claim_index": 129,
+      "claim_id": "averi_val_0129",
+      "peak_cuda": {
+        "allocated_gb": 2.125338077545166,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.0909712080610916,
+      "base_image_rank_sec": 0.10658520401921123,
+      "base_image_sec": 0.19755641208030283,
+      "s2_text_prepare_sec": 54.41782650805544,
+      "s2_text_rank_sec": 85.59436803602148,
+      "s2_text_sec": 140.01219454407692,
+      "fusion_hydration_restoration_sec": 1.5620608360040933,
+      "total_sec": 141.77181179216132,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 130,
+      "claim_id": "averi_val_0130",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.6561966539593413,
+      "base_image_rank_sec": 0.5841058009536937,
+      "base_image_sec": 1.240302454913035,
+      "s2_text_prepare_sec": 54.988166113966145,
+      "s2_text_rank_sec": 74.32431685097981,
+      "s2_text_sec": 129.31248296494596,
+      "fusion_hydration_restoration_sec": 0.9909158049849793,
+      "total_sec": 131.54370122484397,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 2,
+      "claim_index": 131,
+      "claim_id": "averi_val_0131",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.6854159620124847,
+      "base_image_rank_sec": 0.6934565720148385,
+      "base_image_sec": 1.3788725340273231,
+      "s2_text_prepare_sec": 50.079685613978654,
+      "s2_text_rank_sec": 74.35641857201699,
+      "s2_text_sec": 124.43610418599565,
+      "fusion_hydration_restoration_sec": 0.8098725139861926,
+      "total_sec": 126.62484923400916,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 132,
+      "claim_id": "averi_val_0132",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.7007357589900494,
+      "base_image_rank_sec": 0.7444560099393129,
+      "base_image_sec": 1.4451917689293623,
+      "s2_text_prepare_sec": 104.41155076108407,
+      "s2_text_rank_sec": 232.38834596902598,
+      "s2_text_sec": 336.79989673011005,
+      "fusion_hydration_restoration_sec": 0.8046971969306469,
+      "total_sec": 339.04978569597006,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 2,
+      "claim_index": 133,
+      "claim_id": "averi_val_0133",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.02594854508060962,
+      "base_image_rank_sec": 0.03870363300666213,
+      "base_image_sec": 0.06465217808727175,
+      "s2_text_prepare_sec": 84.60900421894621,
+      "s2_text_rank_sec": 107.68231793504674,
+      "s2_text_sec": 192.29132215399295,
+      "fusion_hydration_restoration_sec": 1.885186355910264,
+      "total_sec": 194.2411606879905,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 134,
+      "claim_id": "averi_val_0134",
+      "peak_cuda": {
+        "allocated_gb": 2.1324315071105957,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.31886823498643935,
+      "base_image_rank_sec": 0.27317054697778076,
+      "base_image_sec": 0.5920387819642201,
+      "s2_text_prepare_sec": 30.539950715960003,
+      "s2_text_rank_sec": 44.428882358944975,
+      "s2_text_sec": 74.96883307490498,
+      "fusion_hydration_restoration_sec": 0.924788397969678,
+      "total_sec": 76.48566025483888,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 135,
+      "claim_id": "averi_val_0135",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.32080044702161103,
+      "base_image_rank_sec": 0.2879395380150527,
+      "base_image_sec": 0.6087399850366637,
+      "s2_text_prepare_sec": 127.62864224298391,
+      "s2_text_rank_sec": 293.24109309900086,
+      "s2_text_sec": 420.8697353419848,
+      "fusion_hydration_restoration_sec": 3.0997726269997656,
+      "total_sec": 424.5782479540212,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 136,
+      "claim_id": "averi_val_0136",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.0403461029054597,
+      "base_image_rank_sec": 0.05836160702165216,
+      "base_image_sec": 0.09870770992711186,
+      "s2_text_prepare_sec": 46.77353399700951,
+      "s2_text_rank_sec": 64.3951092530042,
+      "s2_text_sec": 111.1686432500137,
+      "fusion_hydration_restoration_sec": 5.495756484917365,
+      "total_sec": 116.76310744485818,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 137,
+      "claim_id": "averi_val_0137",
+      "peak_cuda": {
+        "allocated_gb": 2.171999454498291,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.40602668793872,
+      "base_image_rank_sec": 0.3992833530064672,
+      "base_image_sec": 0.8053100409451872,
+      "s2_text_prepare_sec": 96.6449963588966,
+      "s2_text_rank_sec": 150.23008101200685,
+      "s2_text_sec": 246.87507737090345,
+      "fusion_hydration_restoration_sec": 0.6233305559726432,
+      "total_sec": 248.30371796782129,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 138,
+      "claim_id": "averi_val_0138",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.2771840230561793,
+      "base_image_rank_sec": 0.2779550669947639,
+      "base_image_sec": 0.5551390900509432,
+      "s2_text_prepare_sec": 86.07467184902634,
+      "s2_text_rank_sec": 127.23355789994821,
+      "s2_text_sec": 213.30822974897455,
+      "fusion_hydration_restoration_sec": 0.3872543629258871,
+      "total_sec": 214.25062320195138,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 139,
+      "claim_id": "averi_val_0139",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.09109538199845701,
+      "base_image_rank_sec": 0.09094351797830313,
+      "base_image_sec": 0.18203889997676015,
+      "s2_text_prepare_sec": 79.88255507405847,
+      "s2_text_rank_sec": 105.4549647429958,
+      "s2_text_sec": 185.33751981705427,
+      "fusion_hydration_restoration_sec": 28.67900347802788,
+      "total_sec": 214.1985621950589,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 140,
+      "claim_id": "averi_val_0140",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.041369955986738205,
+      "base_image_rank_sec": 0.06276046589482576,
+      "base_image_sec": 0.10413042188156396,
+      "s2_text_prepare_sec": 60.34654196794145,
+      "s2_text_rank_sec": 96.15708560496569,
+      "s2_text_sec": 156.50362757290713,
+      "fusion_hydration_restoration_sec": 1.5109151549404487,
+      "total_sec": 158.11867314972915,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 141,
+      "claim_id": "averi_val_0141",
+      "peak_cuda": {
+        "allocated_gb": 2.171999454498291,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.006951713003218174,
+      "base_image_rank_sec": 0.025591138983145356,
+      "base_image_sec": 0.03254285198636353,
+      "s2_text_prepare_sec": 58.33986144699156,
+      "s2_text_rank_sec": 91.5009481649613,
+      "s2_text_sec": 149.84080961195286,
+      "fusion_hydration_restoration_sec": 34.93010075495113,
+      "total_sec": 184.80345321889035,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 142,
+      "claim_id": "averi_val_0142",
+      "peak_cuda": {
+        "allocated_gb": 2.125338077545166,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.10154939605854452,
+      "base_image_rank_sec": 0.10272688802797347,
+      "base_image_sec": 0.204276284086518,
+      "s2_text_prepare_sec": 60.42983324790839,
+      "s2_text_rank_sec": 79.83328874199651,
+      "s2_text_sec": 140.2631219899049,
+      "fusion_hydration_restoration_sec": 16.76183772808872,
+      "total_sec": 157.22923600208014,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 143,
+      "claim_id": "averi_val_0143",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.00027897197287529707,
+      "base_image_rank_sec": 7.605063728988171e-06,
+      "base_image_sec": 0.00028657703660428524,
+      "s2_text_prepare_sec": 80.54836894804612,
+      "s2_text_rank_sec": 111.88982050900813,
+      "s2_text_sec": 192.43818945705425,
+      "fusion_hydration_restoration_sec": 22.26114948093891,
+      "total_sec": 214.69962551502977,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 144,
+      "claim_id": "averi_val_0144",
+      "peak_cuda": {
+        "allocated_gb": 2.125338077545166,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.13884094404056668,
+      "base_image_rank_sec": 0.13791668496560305,
+      "base_image_sec": 0.27675762900616974,
+      "s2_text_prepare_sec": 30.66614166193176,
+      "s2_text_rank_sec": 37.950647723977454,
+      "s2_text_sec": 68.61678938590921,
+      "fusion_hydration_restoration_sec": 0.34212210203986615,
+      "total_sec": 69.23566911695525,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 145,
+      "claim_id": "averi_val_0145",
+      "peak_cuda": {
+        "allocated_gb": 2.172365665435791,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.010470534907653928,
+      "base_image_rank_sec": 0.024255341035313904,
+      "base_image_sec": 0.03472587594296783,
+      "s2_text_prepare_sec": 166.38680876104627,
+      "s2_text_rank_sec": 386.19846610806417,
+      "s2_text_sec": 552.5852748691104,
+      "fusion_hydration_restoration_sec": 136.4335216600448,
+      "total_sec": 689.0535224050982,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 146,
+      "claim_id": "averi_val_0146",
+      "peak_cuda": {
+        "allocated_gb": 2.125338077545166,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.04242789093405008,
+      "base_image_rank_sec": 0.060452776029706,
+      "base_image_sec": 0.10288066696375608,
+      "s2_text_prepare_sec": 58.74885692994576,
+      "s2_text_rank_sec": 82.87146312010009,
+      "s2_text_sec": 141.62032005004585,
+      "fusion_hydration_restoration_sec": 1.2061033310601488,
+      "total_sec": 142.92930404806975,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 147,
+      "claim_id": "averi_val_0147",
+      "peak_cuda": {
+        "allocated_gb": 2.171999454498291,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.010574397048912942,
+      "base_image_rank_sec": 0.02743551495950669,
+      "base_image_sec": 0.03800991200841963,
+      "s2_text_prepare_sec": 58.37897820107173,
+      "s2_text_rank_sec": 96.20855787699111,
+      "s2_text_sec": 154.58753607806284,
+      "fusion_hydration_restoration_sec": 9.884844162967056,
+      "total_sec": 164.51039015303832,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 148,
+      "claim_id": "averi_val_0148",
+      "peak_cuda": {
+        "allocated_gb": 2.125338077545166,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.07375323493033648,
+      "base_image_rank_sec": 0.07779383007436991,
+      "base_image_sec": 0.15154706500470638,
+      "s2_text_prepare_sec": 71.37011271703523,
+      "s2_text_rank_sec": 152.505447161966,
+      "s2_text_sec": 223.87555987900123,
+      "fusion_hydration_restoration_sec": 0.8039014170644805,
+      "total_sec": 224.83100836107042,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 149,
+      "claim_id": "averi_val_0149",
+      "peak_cuda": {
+        "allocated_gb": 2.171999454498291,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.005680243019014597,
+      "base_image_rank_sec": 0.06007616699207574,
+      "base_image_sec": 0.06575641001109034,
+      "s2_text_prepare_sec": 75.78373900707811,
+      "s2_text_rank_sec": 105.88432191498578,
+      "s2_text_sec": 181.6680609220639,
+      "fusion_hydration_restoration_sec": 71.8244341359241,
+      "total_sec": 253.55825146799907,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 3,
+      "claim_index": 150,
+      "claim_id": "averi_val_0150",
+      "peak_cuda": {
+        "allocated_gb": 2.125338077545166,
+        "reserved_gb": 2.201171875
+      }
+    },
+    {
+      "base_image_prepare_sec": 0.02418971003498882,
+      "base_image_rank_sec": 0.043395679094828665,
+      "base_image_sec": 0.06758538912981749,
+      "s2_text_prepare_sec": 37.969594263006,
+      "s2_text_rank_sec": 54.0943548779469,
+      "s2_text_sec": 92.0639491409529,
+      "fusion_hydration_restoration_sec": 1.4914071829989552,
+      "total_sec": 93.62294171308167,
+      "selected_urls": 10,
+      "evidence": 10,
+      "claim_images": 1,
+      "claim_index": 151,
+      "claim_id": "averi_val_0151",
+      "peak_cuda": {
+        "allocated_gb": 2.125338077545166,
+        "reserved_gb": 2.201171875
+      }
+    }
+  ],
+  "summary": {
+    "total": {
+      "n": 152,
+      "mean_sec": 188.35954501561892,
+      "median_sec": 157.27776550961426,
+      "p95_sec": 413.54682880471205,
+      "min_sec": 17.63990696100518,
+      "max_sec": 696.3074283847818,
+      "total_sec": 28630.650842374074
+    },
+    "base_image": {
+      "n": 152,
+      "mean_sec": 0.3738762572060008,
+      "median_sec": 0.16390407754806802,
+      "p95_sec": 1.2358819658635183,
+      "min_sec": 0.00011664896737784147,
+      "max_sec": 5.7553127721184865,
+      "total_sec": 56.829191095312126
+    },
+    "base_image_prepare": {
+      "n": 152,
+      "mean_sec": 0.18238494452012483,
+      "median_sec": 0.07228421547915787,
+      "p95_sec": 0.6274640229239591,
+      "min_sec": 0.00010945496615022421,
+      "max_sec": 3.0963314240798354,
+      "total_sec": 27.722511567058973
+    },
+    "base_image_rank": {
+      "n": 152,
+      "mean_sec": 0.19149131268587602,
+      "median_sec": 0.08797039499040693,
+      "p95_sec": 0.6038025349611411,
+      "min_sec": 6.492016837000847e-06,
+      "max_sec": 2.658981348038651,
+      "total_sec": 29.106679528253153
+    },
+    "s2_text": {
+      "n": 152,
+      "mean_sec": 178.99213827736247,
+      "median_sec": 149.65155289298855,
+      "p95_sec": 394.86031240922733,
+      "min_sec": 12.074397414107807,
+      "max_sec": 695.4795147338882,
+      "total_sec": 27206.805018159095
+    },
+    "s2_text_prepare": {
+      "n": 152,
+      "mean_sec": 67.75606497051194,
+      "median_sec": 59.58993339247536,
+      "p95_sec": 130.4397295530419,
+      "min_sec": 5.132227999041788,
+      "max_sec": 257.747864189907,
+      "total_sec": 10298.921875517815
+    },
+    "s2_text_rank": {
+      "n": 152,
+      "mean_sec": 111.23607330685053,
+      "median_sec": 86.02271867351374,
+      "p95_sec": 261.9465849949338,
+      "min_sec": 6.942169415066019,
+      "max_sec": 437.73165054398123,
+      "total_sec": 16907.88314264128
+    },
+    "fusion_hydration_restoration": {
+      "n": 152,
+      "mean_sec": 8.99353048105044,
+      "median_sec": 1.501161168969702,
+      "p95_sec": 42.35338762569572,
+      "min_sec": 0.33936662191990763,
+      "max_sec": 136.4335216600448,
+      "total_sec": 1367.016633119667
+    },
+    "peak_reserved_gb": 2.201171875,
+    "peak_allocated_gb": 2.172365665435791
+  }
+}

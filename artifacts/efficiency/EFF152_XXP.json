@@ -1,0 +1,2321 @@
+{
+  "method": "XxP",
+  "benchmark_type": "warm evidence-acquisition latency",
+  "model_load_sec": 9.256712600006722,
+  "warmup_claim": 0,
+  "measured_claims": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151
+  ],
+  "per_claim": [
+    {
+      "question_generation_sec": 5.311938071041368,
+      "retrieval_sec": 45.44932415592484,
+      "total_sec": 50.76126222696621,
+      "questions": 3,
+      "retrieved_hits": 20,
+      "claim_images": 1,
+      "claim_index": 0,
+      "claim_id": "averi_val_0000",
+      "peak_cuda": {
+        "allocated_gb": 18.585965633392334,
+        "reserved_gb": 18.638671875
+      }
+    },
+    {
+      "question_generation_sec": 6.662333281012252,
+      "retrieval_sec": 21.524415260995738,
+      "total_sec": 28.18674854200799,
+      "questions": 4,
+      "retrieved_hits": 22,
+      "claim_images": 2,
+      "claim_index": 1,
+      "claim_id": "averi_val_0001",
+      "peak_cuda": {
+        "allocated_gb": 17.838507175445557,
+        "reserved_gb": 18.638671875
+      }
+    },
+    {
+      "question_generation_sec": 6.042735553928651,
+      "retrieval_sec": 1.8035504249855876,
+      "total_sec": 7.8462859789142385,
+      "questions": 3,
+      "retrieved_hits": 15,
+      "claim_images": 4,
+      "claim_index": 2,
+      "claim_id": "averi_val_0002",
+      "peak_cuda": {
+        "allocated_gb": 17.77712392807007,
+        "reserved_gb": 18.638671875
+      }
+    },
+    {
+      "question_generation_sec": 4.943158425041474,
+      "retrieval_sec": 38.107540150987916,
+      "total_sec": 43.05069857602939,
+      "questions": 3,
+      "retrieved_hits": 15,
+      "claim_images": 1,
+      "claim_index": 3,
+      "claim_id": "averi_val_0003",
+      "peak_cuda": {
+        "allocated_gb": 17.8203763961792,
+        "reserved_gb": 18.638671875
+      }
+    },
+    {
+      "question_generation_sec": 9.116965541965328,
+      "retrieval_sec": 13.307339253951795,
+      "total_sec": 22.424304795917124,
+      "questions": 4,
+      "retrieved_hits": 15,
+      "claim_images": 1,
+      "claim_index": 4,
+      "claim_id": "averi_val_0004",
+      "peak_cuda": {
+        "allocated_gb": 18.758013248443604,
+        "reserved_gb": 18.833984375
+      }
+    },
+    {
+      "question_generation_sec": 5.262567222001962,
+      "retrieval_sec": 31.227467159042135,
+      "total_sec": 36.4900343810441,
+      "questions": 3,
+      "retrieved_hits": 20,
+      "claim_images": 3,
+      "claim_index": 5,
+      "claim_id": "averi_val_0005",
+      "peak_cuda": {
+        "allocated_gb": 17.855933666229248,
+        "reserved_gb": 18.833984375
+      }
+    },
+    {
+      "question_generation_sec": 6.045144292060286,
+      "retrieval_sec": 8.316089651081711,
+      "total_sec": 14.361233943141997,
+      "questions": 3,
+      "retrieved_hits": 15,
+      "claim_images": 1,
+      "claim_index": 6,
+      "claim_id": "averi_val_0006",
+      "peak_cuda": {
+        "allocated_gb": 17.714147567749023,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 5.3790839170105755,
+      "retrieval_sec": 0.0004875949816778302,
+      "total_sec": 5.379571511992253,
+      "questions": 3,
+      "retrieved_hits": 0,
+      "claim_images": 1,
+      "claim_index": 7,
+      "claim_id": "averi_val_0007",
+      "peak_cuda": {
+        "allocated_gb": 17.814751148223877,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 6.441173963015899,
+      "retrieval_sec": 1.5547861519735307,
+      "total_sec": 7.99596011498943,
+      "questions": 4,
+      "retrieved_hits": 8,
+      "claim_images": 1,
+      "claim_index": 8,
+      "claim_id": "averi_val_0008",
+      "peak_cuda": {
+        "allocated_gb": 17.721755027770996,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 7.283081238041632,
+      "retrieval_sec": 10.933506803005002,
+      "total_sec": 18.216588041046634,
+      "questions": 4,
+      "retrieved_hits": 18,
+      "claim_images": 1,
+      "claim_index": 9,
+      "claim_id": "averi_val_0009",
+      "peak_cuda": {
+        "allocated_gb": 17.787601470947266,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 6.063467083033174,
+      "retrieval_sec": 6.819596227956936,
+      "total_sec": 12.88306331099011,
+      "questions": 4,
+      "retrieved_hits": 20,
+      "claim_images": 1,
+      "claim_index": 10,
+      "claim_id": "averi_val_0010",
+      "peak_cuda": {
+        "allocated_gb": 17.775794982910156,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 6.676052663009614,
+      "retrieval_sec": 7.675137987011112,
+      "total_sec": 14.351190650020726,
+      "questions": 4,
+      "retrieved_hits": 20,
+      "claim_images": 1,
+      "claim_index": 11,
+      "claim_id": "averi_val_0011",
+      "peak_cuda": {
+        "allocated_gb": 17.80680799484253,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 4.932731960085221,
+      "retrieval_sec": 38.524446271010675,
+      "total_sec": 43.457178231095895,
+      "questions": 3,
+      "retrieved_hits": 20,
+      "claim_images": 1,
+      "claim_index": 12,
+      "claim_id": "averi_val_0012",
+      "peak_cuda": {
+        "allocated_gb": 17.796667098999023,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 6.500037838937715,
+      "retrieval_sec": 48.640756889944896,
+      "total_sec": 55.14079472888261,
+      "questions": 4,
+      "retrieved_hits": 20,
+      "claim_images": 1,
+      "claim_index": 13,
+      "claim_id": "averi_val_0013",
+      "peak_cuda": {
+        "allocated_gb": 17.798325538635254,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 7.961176483076997,
+      "retrieval_sec": 19.33870418195147,
+      "total_sec": 27.299880665028468,
+      "questions": 4,
+      "retrieved_hits": 20,
+      "claim_images": 2,
+      "claim_index": 14,
+      "claim_id": "averi_val_0014",
+      "peak_cuda": {
+        "allocated_gb": 18.051881313323975,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 5.163846567040309,
+      "retrieval_sec": 35.154138594982214,
+      "total_sec": 40.317985162022524,
+      "questions": 3,
+      "retrieved_hits": 20,
+      "claim_images": 2,
+      "claim_index": 15,
+      "claim_id": "averi_val_0015",
+      "peak_cuda": {
+        "allocated_gb": 17.85261583328247,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 7.15830627293326,
+      "retrieval_sec": 29.127824794035405,
+      "total_sec": 36.286131066968665,
+      "questions": 4,
+      "retrieved_hits": 25,
+      "claim_images": 1,
+      "claim_index": 16,
+      "claim_id": "averi_val_0016",
+      "peak_cuda": {
+        "allocated_gb": 17.873668670654297,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 5.1003859390039,
+      "retrieval_sec": 0.5110707690473646,
+      "total_sec": 5.611456708051264,
+      "questions": 3,
+      "retrieved_hits": 3,
+      "claim_images": 1,
+      "claim_index": 17,
+      "claim_id": "averi_val_0017",
+      "peak_cuda": {
+        "allocated_gb": 18.04626750946045,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 5.659009808907285,
+      "retrieval_sec": 23.581157302018255,
+      "total_sec": 29.24016711092554,
+      "questions": 3,
+      "retrieved_hits": 12,
+      "claim_images": 1,
+      "claim_index": 18,
+      "claim_id": "averi_val_0018",
+      "peak_cuda": {
+        "allocated_gb": 17.793342113494873,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 6.454307829961181,
+      "retrieval_sec": 6.6376092419959605,
+      "total_sec": 13.091917071957141,
+      "questions": 4,
+      "retrieved_hits": 20,
+      "claim_images": 1,
+      "claim_index": 19,
+      "claim_id": "averi_val_0019",
+      "peak_cuda": {
+        "allocated_gb": 17.770394802093506,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 4.826165264938027,
+      "retrieval_sec": 1.2663634640630335,
+      "total_sec": 6.09252872900106,
+      "questions": 3,
+      "retrieved_hits": 9,
+      "claim_images": 1,
+      "claim_index": 20,
+      "claim_id": "averi_val_0020",
+      "peak_cuda": {
+        "allocated_gb": 17.78428363800049,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 6.500450203893706,
+      "retrieval_sec": 24.58580828399863,
+      "total_sec": 31.086258487892337,
+      "questions": 4,
+      "retrieved_hits": 25,
+      "claim_images": 1,
+      "claim_index": 21,
+      "claim_id": "averi_val_0021",
+      "peak_cuda": {
+        "allocated_gb": 17.807939052581787,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 5.453191178967245,
+      "retrieval_sec": 28.15576725208666,
+      "total_sec": 33.60895843105391,
+      "questions": 3,
+      "retrieved_hits": 20,
+      "claim_images": 1,
+      "claim_index": 22,
+      "claim_id": "averi_val_0022",
+      "peak_cuda": {
+        "allocated_gb": 17.796850204467773,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 4.919647089904174,
+      "retrieval_sec": 0.7673923900583759,
+      "total_sec": 5.68703947996255,
+      "questions": 3,
+      "retrieved_hits": 3,
+      "claim_images": 1,
+      "claim_index": 23,
+      "claim_id": "averi_val_0023",
+      "peak_cuda": {
+        "allocated_gb": 17.86473321914673,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 5.365303601953201,
+      "retrieval_sec": 33.164137789048254,
+      "total_sec": 38.529441391001455,
+      "questions": 3,
+      "retrieved_hits": 14,
+      "claim_images": 1,
+      "claim_index": 24,
+      "claim_id": "averi_val_0024",
+      "peak_cuda": {
+        "allocated_gb": 17.84825325012207,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 4.7290956270881,
+      "retrieval_sec": 19.538521495996974,
+      "total_sec": 24.267617123085074,
+      "questions": 3,
+      "retrieved_hits": 20,
+      "claim_images": 1,
+      "claim_index": 25,
+      "claim_id": "averi_val_0025",
+      "peak_cuda": {
+        "allocated_gb": 17.741475582122803,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 4.96924681996461,
+      "retrieval_sec": 0.0006260940572246909,
+      "total_sec": 4.969872914021835,
+      "questions": 3,
+      "retrieved_hits": 0,
+      "claim_images": 1,
+      "claim_index": 26,
+      "claim_id": "averi_val_0026",
+      "peak_cuda": {
+        "allocated_gb": 17.808889389038086,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 8.558543474064209,
+      "retrieval_sec": 26.172356439987198,
+      "total_sec": 34.730899914051406,
+      "questions": 5,
+      "retrieved_hits": 20,
+      "claim_images": 3,
+      "claim_index": 27,
+      "claim_id": "averi_val_0027",
+      "peak_cuda": {
+        "allocated_gb": 17.77555751800537,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 5.373778018984012,
+      "retrieval_sec": 2.3833451000973582,
+      "total_sec": 7.7571231190813705,
+      "questions": 3,
+      "retrieved_hits": 15,
+      "claim_images": 1,
+      "claim_index": 28,
+      "claim_id": "averi_val_0028",
+      "peak_cuda": {
+        "allocated_gb": 17.867186069488525,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 6.837129563093185,
+      "retrieval_sec": 15.008716898970306,
+      "total_sec": 21.84584646206349,
+      "questions": 4,
+      "retrieved_hits": 16,
+      "claim_images": 1,
+      "claim_index": 29,
+      "claim_id": "averi_val_0029",
+      "peak_cuda": {
+        "allocated_gb": 17.776779651641846,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 5.120596471941099,
+      "retrieval_sec": 26.514862234005705,
+      "total_sec": 31.635458705946803,
+      "questions": 3,
+      "retrieved_hits": 14,
+      "claim_images": 1,
+      "claim_index": 30,
+      "claim_id": "averi_val_0030",
+      "peak_cuda": {
+        "allocated_gb": 17.938873767852783,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 4.77931533602532,
+      "retrieval_sec": 75.7163442990277,
+      "total_sec": 80.49565963505302,
+      "questions": 3,
+      "retrieved_hits": 15,
+      "claim_images": 1,
+      "claim_index": 31,
+      "claim_id": "averi_val_0031",
+      "peak_cuda": {
+        "allocated_gb": 17.730224132537842,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 6.6989964549429715,
+      "retrieval_sec": 36.64025877893437,
+      "total_sec": 43.33925523387734,
+      "questions": 4,
+      "retrieved_hits": 14,
+      "claim_images": 1,
+      "claim_index": 32,
+      "claim_id": "averi_val_0032",
+      "peak_cuda": {
+        "allocated_gb": 17.799771308898926,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 7.373015551944263,
+      "retrieval_sec": 14.606842707027681,
+      "total_sec": 21.979858258971944,
+      "questions": 4,
+      "retrieved_hits": 16,
+      "claim_images": 1,
+      "claim_index": 33,
+      "claim_id": "averi_val_0033",
+      "peak_cuda": {
+        "allocated_gb": 17.84683132171631,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 7.00829829601571,
+      "retrieval_sec": 12.545502603054047,
+      "total_sec": 19.553800899069756,
+      "questions": 4,
+      "retrieved_hits": 22,
+      "claim_images": 1,
+      "claim_index": 34,
+      "claim_id": "averi_val_0034",
+      "peak_cuda": {
+        "allocated_gb": 17.748385429382324,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 6.107580080977641,
+      "retrieval_sec": 35.47191527800169,
+      "total_sec": 41.57949535897933,
+      "questions": 4,
+      "retrieved_hits": 25,
+      "claim_images": 1,
+      "claim_index": 35,
+      "claim_id": "averi_val_0035",
+      "peak_cuda": {
+        "allocated_gb": 17.81380271911621,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 5.357112318975851,
+      "retrieval_sec": 24.86460052395705,
+      "total_sec": 30.221712842932902,
+      "questions": 3,
+      "retrieved_hits": 15,
+      "claim_images": 6,
+      "claim_index": 36,
+      "claim_id": "averi_val_0036",
+      "peak_cuda": {
+        "allocated_gb": 17.836183547973633,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 4.749405337031931,
+      "retrieval_sec": 3.8588136510225013,
+      "total_sec": 8.608218988054432,
+      "questions": 3,
+      "retrieved_hits": 15,
+      "claim_images": 1,
+      "claim_index": 37,
+      "claim_id": "averi_val_0037",
+      "peak_cuda": {
+        "allocated_gb": 17.760093688964844,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 6.321123554022051,
+      "retrieval_sec": 19.898623162065633,
+      "total_sec": 26.219746716087684,
+      "questions": 4,
+      "retrieved_hits": 25,
+      "claim_images": 1,
+      "claim_index": 38,
+      "claim_id": "averi_val_0038",
+      "peak_cuda": {
+        "allocated_gb": 17.93321704864502,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 6.574548079981469,
+      "retrieval_sec": 41.4196313630091,
+      "total_sec": 47.99417944299057,
+      "questions": 4,
+      "retrieved_hits": 25,
+      "claim_images": 1,
+      "claim_index": 39,
+      "claim_id": "averi_val_0039",
+      "peak_cuda": {
+        "allocated_gb": 17.785943031311035,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 7.072009872994386,
+      "retrieval_sec": 27.444598897942342,
+      "total_sec": 34.51660877093673,
+      "questions": 4,
+      "retrieved_hits": 20,
+      "claim_images": 3,
+      "claim_index": 40,
+      "claim_id": "averi_val_0040",
+      "peak_cuda": {
+        "allocated_gb": 17.776933193206787,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 6.3882015340495855,
+      "retrieval_sec": 23.91049760498572,
+      "total_sec": 30.298699139035307,
+      "questions": 4,
+      "retrieved_hits": 20,
+      "claim_images": 1,
+      "claim_index": 41,
+      "claim_id": "averi_val_0041",
+      "peak_cuda": {
+        "allocated_gb": 17.802184581756592,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 5.8756206090329215,
+      "retrieval_sec": 8.314340941957198,
+      "total_sec": 14.18996155099012,
+      "questions": 4,
+      "retrieved_hits": 16,
+      "claim_images": 1,
+      "claim_index": 42,
+      "claim_id": "averi_val_0042",
+      "peak_cuda": {
+        "allocated_gb": 17.74411916732788,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 8.557694424991496,
+      "retrieval_sec": 24.514179100980982,
+      "total_sec": 33.07187352597248,
+      "questions": 4,
+      "retrieved_hits": 10,
+      "claim_images": 1,
+      "claim_index": 43,
+      "claim_id": "averi_val_0043",
+      "peak_cuda": {
+        "allocated_gb": 18.591655731201172,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 6.75847134902142,
+      "retrieval_sec": 13.234127935953438,
+      "total_sec": 19.992599284974858,
+      "questions": 4,
+      "retrieved_hits": 10,
+      "claim_images": 1,
+      "claim_index": 44,
+      "claim_id": "averi_val_0044",
+      "peak_cuda": {
+        "allocated_gb": 17.868762016296387,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 7.418102424009703,
+      "retrieval_sec": 9.361316710943356,
+      "total_sec": 16.77941913495306,
+      "questions": 4,
+      "retrieved_hits": 12,
+      "claim_images": 1,
+      "claim_index": 45,
+      "claim_id": "averi_val_0045",
+      "peak_cuda": {
+        "allocated_gb": 17.753888607025146,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 5.814947959035635,
+      "retrieval_sec": 18.489172012079507,
+      "total_sec": 24.304119971115142,
+      "questions": 4,
+      "retrieved_hits": 16,
+      "claim_images": 1,
+      "claim_index": 46,
+      "claim_id": "averi_val_0046",
+      "peak_cuda": {
+        "allocated_gb": 17.778913021087646,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 8.917361725005321,
+      "retrieval_sec": 3.2921708810608834,
+      "total_sec": 12.209532606066205,
+      "questions": 4,
+      "retrieved_hits": 16,
+      "claim_images": 4,
+      "claim_index": 47,
+      "claim_id": "averi_val_0047",
+      "peak_cuda": {
+        "allocated_gb": 18.412569522857666,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 7.06869302096311,
+      "retrieval_sec": 20.484977415995672,
+      "total_sec": 27.553670436958782,
+      "questions": 4,
+      "retrieved_hits": 10,
+      "claim_images": 1,
+      "claim_index": 48,
+      "claim_id": "averi_val_0048",
+      "peak_cuda": {
+        "allocated_gb": 17.820612907409668,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 4.88796922005713,
+      "retrieval_sec": 0.6541083340998739,
+      "total_sec": 5.542077554157004,
+      "questions": 3,
+      "retrieved_hits": 3,
+      "claim_images": 1,
+      "claim_index": 49,
+      "claim_id": "averi_val_0049",
+      "peak_cuda": {
+        "allocated_gb": 17.769700527191162,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 6.679852940025739,
+      "retrieval_sec": 21.65316898690071,
+      "total_sec": 28.33302192692645,
+      "questions": 4,
+      "retrieved_hits": 20,
+      "claim_images": 1,
+      "claim_index": 50,
+      "claim_id": "averi_val_0050",
+      "peak_cuda": {
+        "allocated_gb": 17.74900245666504,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 4.872427451075055,
+      "retrieval_sec": 1.2340280460193753,
+      "total_sec": 6.10645549709443,
+      "questions": 3,
+      "retrieved_hits": 6,
+      "claim_images": 1,
+      "claim_index": 51,
+      "claim_id": "averi_val_0051",
+      "peak_cuda": {
+        "allocated_gb": 17.729596614837646,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 6.46260007598903,
+      "retrieval_sec": 26.95009759091772,
+      "total_sec": 33.41269766690675,
+      "questions": 4,
+      "retrieved_hits": 16,
+      "claim_images": 3,
+      "claim_index": 52,
+      "claim_id": "averi_val_0052",
+      "peak_cuda": {
+        "allocated_gb": 17.754231929779053,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 6.174868873087689,
+      "retrieval_sec": 16.306151338969357,
+      "total_sec": 22.481020212057047,
+      "questions": 3,
+      "retrieved_hits": 20,
+      "claim_images": 1,
+      "claim_index": 53,
+      "claim_id": "averi_val_0053",
+      "peak_cuda": {
+        "allocated_gb": 18.047215461730957,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 4.832338731968775,
+      "retrieval_sec": 14.496368207968771,
+      "total_sec": 19.328706939937547,
+      "questions": 3,
+      "retrieved_hits": 10,
+      "claim_images": 1,
+      "claim_index": 54,
+      "claim_id": "averi_val_0054",
+      "peak_cuda": {
+        "allocated_gb": 17.917355060577393,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 6.017213833983988,
+      "retrieval_sec": 27.91282061499078,
+      "total_sec": 33.930034448974766,
+      "questions": 3,
+      "retrieved_hits": 20,
+      "claim_images": 1,
+      "claim_index": 55,
+      "claim_id": "averi_val_0055",
+      "peak_cuda": {
+        "allocated_gb": 18.174846172332764,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 6.236774370074272,
+      "retrieval_sec": 28.786876254016533,
+      "total_sec": 35.023650624090806,
+      "questions": 3,
+      "retrieved_hits": 15,
+      "claim_images": 4,
+      "claim_index": 56,
+      "claim_id": "averi_val_0056",
+      "peak_cuda": {
+        "allocated_gb": 18.564373016357422,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 4.640675614937209,
+      "retrieval_sec": 15.658692527096719,
+      "total_sec": 20.299368142033927,
+      "questions": 3,
+      "retrieved_hits": 14,
+      "claim_images": 1,
+      "claim_index": 57,
+      "claim_id": "averi_val_0057",
+      "peak_cuda": {
+        "allocated_gb": 17.774112701416016,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 7.155569868977182,
+      "retrieval_sec": 13.249095314065926,
+      "total_sec": 20.404665183043107,
+      "questions": 4,
+      "retrieved_hits": 20,
+      "claim_images": 1,
+      "claim_index": 58,
+      "claim_id": "averi_val_0058",
+      "peak_cuda": {
+        "allocated_gb": 17.802338123321533,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 6.739073417964391,
+      "retrieval_sec": 17.024519553990103,
+      "total_sec": 23.763592971954495,
+      "questions": 4,
+      "retrieved_hits": 10,
+      "claim_images": 1,
+      "claim_index": 59,
+      "claim_id": "averi_val_0059",
+      "peak_cuda": {
+        "allocated_gb": 18.07179832458496,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 6.987554993014783,
+      "retrieval_sec": 12.833423328003846,
+      "total_sec": 19.82097832101863,
+      "questions": 4,
+      "retrieved_hits": 14,
+      "claim_images": 1,
+      "claim_index": 60,
+      "claim_id": "averi_val_0060",
+      "peak_cuda": {
+        "allocated_gb": 17.798035621643066,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 5.600979242008179,
+      "retrieval_sec": 16.312266943976283,
+      "total_sec": 21.913246185984462,
+      "questions": 4,
+      "retrieved_hits": 20,
+      "claim_images": 1,
+      "claim_index": 61,
+      "claim_id": "averi_val_0061",
+      "peak_cuda": {
+        "allocated_gb": 17.745991706848145,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 4.8807874420890585,
+      "retrieval_sec": 19.791361124953255,
+      "total_sec": 24.672148567042314,
+      "questions": 3,
+      "retrieved_hits": 20,
+      "claim_images": 1,
+      "claim_index": 62,
+      "claim_id": "averi_val_0062",
+      "peak_cuda": {
+        "allocated_gb": 17.864579677581787,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 6.064903730060905,
+      "retrieval_sec": 6.761458988999948,
+      "total_sec": 12.826362719060853,
+      "questions": 4,
+      "retrieved_hits": 16,
+      "claim_images": 1,
+      "claim_index": 63,
+      "claim_id": "averi_val_0063",
+      "peak_cuda": {
+        "allocated_gb": 17.74504327774048,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 5.348604655009694,
+      "retrieval_sec": 24.19866831204854,
+      "total_sec": 29.547272967058234,
+      "questions": 3,
+      "retrieved_hits": 20,
+      "claim_images": 1,
+      "claim_index": 64,
+      "claim_id": "averi_val_0064",
+      "peak_cuda": {
+        "allocated_gb": 17.805325984954834,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 4.864713306073099,
+      "retrieval_sec": 2.356707919971086,
+      "total_sec": 7.2214212260441855,
+      "questions": 3,
+      "retrieved_hits": 15,
+      "claim_images": 1,
+      "claim_index": 65,
+      "claim_id": "averi_val_0065",
+      "peak_cuda": {
+        "allocated_gb": 17.772666931152344,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 5.505647614016198,
+      "retrieval_sec": 17.74637697194703,
+      "total_sec": 23.252024585963227,
+      "questions": 3,
+      "retrieved_hits": 18,
+      "claim_images": 1,
+      "claim_index": 66,
+      "claim_id": "averi_val_0066",
+      "peak_cuda": {
+        "allocated_gb": 18.115707874298096,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 6.711986934067681,
+      "retrieval_sec": 29.227835837984458,
+      "total_sec": 35.93982277205214,
+      "questions": 4,
+      "retrieved_hits": 20,
+      "claim_images": 1,
+      "claim_index": 67,
+      "claim_id": "averi_val_0067",
+      "peak_cuda": {
+        "allocated_gb": 17.803049564361572,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 7.365407185978256,
+      "retrieval_sec": 25.827029978041537,
+      "total_sec": 33.19243716401979,
+      "questions": 4,
+      "retrieved_hits": 25,
+      "claim_images": 1,
+      "claim_index": 68,
+      "claim_id": "averi_val_0068",
+      "peak_cuda": {
+        "allocated_gb": 17.770734786987305,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 4.651087027043104,
+      "retrieval_sec": 1.212662894045934,
+      "total_sec": 5.863749921089038,
+      "questions": 3,
+      "retrieved_hits": 12,
+      "claim_images": 1,
+      "claim_index": 69,
+      "claim_id": "averi_val_0069",
+      "peak_cuda": {
+        "allocated_gb": 17.76954698562622,
+        "reserved_gb": 18.90625
+      }
+    },
+    {
+      "question_generation_sec": 9.494366485974751,
+      "retrieval_sec": 18.211207251995802,
+      "total_sec": 27.705573737970553,
+      "questions": 4,
+      "retrieved_hits": 20,
+      "claim_images": 4,
+      "claim_index": 70,
+      "claim_id": "averi_val_0070",
+      "peak_cuda": {
+        "allocated_gb": 20.368581295013428,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 7.456477478030138,
+      "retrieval_sec": 19.681751018040814,
+      "total_sec": 27.13822849607095,
+      "questions": 4,
+      "retrieved_hits": 20,
+      "claim_images": 1,
+      "claim_index": 71,
+      "claim_id": "averi_val_0071",
+      "peak_cuda": {
+        "allocated_gb": 17.80699110031128,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 7.508212740998715,
+      "retrieval_sec": 37.67847351101227,
+      "total_sec": 45.186686252010986,
+      "questions": 4,
+      "retrieved_hits": 25,
+      "claim_images": 2,
+      "claim_index": 72,
+      "claim_id": "averi_val_0072",
+      "peak_cuda": {
+        "allocated_gb": 18.117995262145996,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 6.3360429590102285,
+      "retrieval_sec": 21.539833795046434,
+      "total_sec": 27.875876754056662,
+      "questions": 4,
+      "retrieved_hits": 25,
+      "claim_images": 1,
+      "claim_index": 73,
+      "claim_id": "averi_val_0073",
+      "peak_cuda": {
+        "allocated_gb": 17.782658576965332,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 6.074368766974658,
+      "retrieval_sec": 24.99282112310175,
+      "total_sec": 31.067189890076406,
+      "questions": 4,
+      "retrieved_hits": 25,
+      "claim_images": 1,
+      "claim_index": 74,
+      "claim_id": "averi_val_0074",
+      "peak_cuda": {
+        "allocated_gb": 17.780762195587158,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 7.450706130010076,
+      "retrieval_sec": 0.0005427239229902625,
+      "total_sec": 7.451248853933066,
+      "questions": 4,
+      "retrieved_hits": 0,
+      "claim_images": 1,
+      "claim_index": 75,
+      "claim_id": "averi_val_0075",
+      "peak_cuda": {
+        "allocated_gb": 17.772530555725098,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 4.7039319820469245,
+      "retrieval_sec": 15.934262618073262,
+      "total_sec": 20.638194600120187,
+      "questions": 3,
+      "retrieved_hits": 15,
+      "claim_images": 1,
+      "claim_index": 76,
+      "claim_id": "averi_val_0076",
+      "peak_cuda": {
+        "allocated_gb": 17.779743671417236,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 4.74843906192109,
+      "retrieval_sec": 0.6435788570670411,
+      "total_sec": 5.392017918988131,
+      "questions": 3,
+      "retrieved_hits": 3,
+      "claim_images": 1,
+      "claim_index": 77,
+      "claim_id": "averi_val_0077",
+      "peak_cuda": {
+        "allocated_gb": 17.796422958374023,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 5.116496939910576,
+      "retrieval_sec": 25.485550786019303,
+      "total_sec": 30.60204772592988,
+      "questions": 3,
+      "retrieved_hits": 14,
+      "claim_images": 1,
+      "claim_index": 78,
+      "claim_id": "averi_val_0078",
+      "peak_cuda": {
+        "allocated_gb": 17.73825740814209,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 5.81610164209269,
+      "retrieval_sec": 33.708935710950755,
+      "total_sec": 39.525037353043444,
+      "questions": 4,
+      "retrieved_hits": 25,
+      "claim_images": 1,
+      "claim_index": 79,
+      "claim_id": "averi_val_0079",
+      "peak_cuda": {
+        "allocated_gb": 17.73825740814209,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 5.994238029001281,
+      "retrieval_sec": 20.01647040597163,
+      "total_sec": 26.010708434972912,
+      "questions": 3,
+      "retrieved_hits": 15,
+      "claim_images": 3,
+      "claim_index": 80,
+      "claim_id": "averi_val_0080",
+      "peak_cuda": {
+        "allocated_gb": 17.761515617370605,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 5.8887236380251125,
+      "retrieval_sec": 26.811538327950984,
+      "total_sec": 32.7002619659761,
+      "questions": 4,
+      "retrieved_hits": 14,
+      "claim_images": 1,
+      "claim_index": 81,
+      "claim_id": "averi_val_0081",
+      "peak_cuda": {
+        "allocated_gb": 17.769012928009033,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 7.060537233017385,
+      "retrieval_sec": 16.95539236208424,
+      "total_sec": 24.015929595101625,
+      "questions": 4,
+      "retrieved_hits": 25,
+      "claim_images": 1,
+      "claim_index": 82,
+      "claim_id": "averi_val_0082",
+      "peak_cuda": {
+        "allocated_gb": 17.7957124710083,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 6.2479167599231005,
+      "retrieval_sec": 53.99088922399096,
+      "total_sec": 60.23880598391406,
+      "questions": 4,
+      "retrieved_hits": 25,
+      "claim_images": 2,
+      "claim_index": 83,
+      "claim_id": "averi_val_0083",
+      "peak_cuda": {
+        "allocated_gb": 17.73825740814209,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 5.000116736046039,
+      "retrieval_sec": 0.12538473994936794,
+      "total_sec": 5.1255014759954065,
+      "questions": 3,
+      "retrieved_hits": 3,
+      "claim_images": 1,
+      "claim_index": 84,
+      "claim_id": "averi_val_0084",
+      "peak_cuda": {
+        "allocated_gb": 17.785943031311035,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 4.818612934905104,
+      "retrieval_sec": 2.352241318905726,
+      "total_sec": 7.17085425381083,
+      "questions": 3,
+      "retrieved_hits": 15,
+      "claim_images": 1,
+      "claim_index": 85,
+      "claim_id": "averi_val_0085",
+      "peak_cuda": {
+        "allocated_gb": 17.783306121826172,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 6.211630170000717,
+      "retrieval_sec": 16.33367071999237,
+      "total_sec": 22.545300889993086,
+      "questions": 3,
+      "retrieved_hits": 15,
+      "claim_images": 4,
+      "claim_index": 86,
+      "claim_id": "averi_val_0086",
+      "peak_cuda": {
+        "allocated_gb": 18.482781410217285,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 4.6260169229935855,
+      "retrieval_sec": 21.80158191395458,
+      "total_sec": 26.427598836948164,
+      "questions": 3,
+      "retrieved_hits": 20,
+      "claim_images": 1,
+      "claim_index": 87,
+      "claim_id": "averi_val_0087",
+      "peak_cuda": {
+        "allocated_gb": 17.787097930908203,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 4.948429454001598,
+      "retrieval_sec": 1.5612791839521378,
+      "total_sec": 6.509708637953736,
+      "questions": 3,
+      "retrieved_hits": 6,
+      "claim_images": 1,
+      "claim_index": 88,
+      "claim_id": "averi_val_0088",
+      "peak_cuda": {
+        "allocated_gb": 17.778866291046143,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 5.161795299965888,
+      "retrieval_sec": 32.589339598082006,
+      "total_sec": 37.751134898047894,
+      "questions": 3,
+      "retrieved_hits": 15,
+      "claim_images": 1,
+      "claim_index": 89,
+      "claim_id": "averi_val_0089",
+      "peak_cuda": {
+        "allocated_gb": 17.784728050231934,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 5.569217982934788,
+      "retrieval_sec": 37.548282695002854,
+      "total_sec": 43.11750067793764,
+      "questions": 3,
+      "retrieved_hits": 20,
+      "claim_images": 1,
+      "claim_index": 90,
+      "claim_id": "averi_val_0090",
+      "peak_cuda": {
+        "allocated_gb": 17.765221118927002,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 9.767392617999576,
+      "retrieval_sec": 33.08407551597338,
+      "total_sec": 42.85146813397296,
+      "questions": 4,
+      "retrieved_hits": 20,
+      "claim_images": 3,
+      "claim_index": 91,
+      "claim_id": "averi_val_0091",
+      "peak_cuda": {
+        "allocated_gb": 19.08283281326294,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 7.595160000026226,
+      "retrieval_sec": 21.647004987928085,
+      "total_sec": 29.24216498795431,
+      "questions": 4,
+      "retrieved_hits": 20,
+      "claim_images": 4,
+      "claim_index": 92,
+      "claim_id": "averi_val_0092",
+      "peak_cuda": {
+        "allocated_gb": 17.810909271240234,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 4.741648874012753,
+      "retrieval_sec": 65.98791140294634,
+      "total_sec": 70.72956027695909,
+      "questions": 3,
+      "retrieved_hits": 20,
+      "claim_images": 1,
+      "claim_index": 93,
+      "claim_id": "averi_val_0093",
+      "peak_cuda": {
+        "allocated_gb": 17.765718936920166,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 5.554077212931588,
+      "retrieval_sec": 2.7599516989430413,
+      "total_sec": 8.31402891187463,
+      "questions": 3,
+      "retrieved_hits": 15,
+      "claim_images": 1,
+      "claim_index": 94,
+      "claim_id": "averi_val_0094",
+      "peak_cuda": {
+        "allocated_gb": 18.144105911254883,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 6.664093401050195,
+      "retrieval_sec": 121.99008518294431,
+      "total_sec": 128.6541785839945,
+      "questions": 4,
+      "retrieved_hits": 20,
+      "claim_images": 1,
+      "claim_index": 95,
+      "claim_id": "averi_val_0095",
+      "peak_cuda": {
+        "allocated_gb": 17.73825740814209,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 5.272571949986741,
+      "retrieval_sec": 9.512586539960466,
+      "total_sec": 14.785158489947207,
+      "questions": 3,
+      "retrieved_hits": 20,
+      "claim_images": 1,
+      "claim_index": 96,
+      "claim_id": "averi_val_0096",
+      "peak_cuda": {
+        "allocated_gb": 17.816914081573486,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 7.454886450082995,
+      "retrieval_sec": 13.646735336980782,
+      "total_sec": 21.101621787063777,
+      "questions": 4,
+      "retrieved_hits": 25,
+      "claim_images": 1,
+      "claim_index": 97,
+      "claim_id": "averi_val_0097",
+      "peak_cuda": {
+        "allocated_gb": 17.818336009979248,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 5.601817480986938,
+      "retrieval_sec": 0.19716308801434934,
+      "total_sec": 5.798980569001287,
+      "questions": 3,
+      "retrieved_hits": 3,
+      "claim_images": 1,
+      "claim_index": 98,
+      "claim_id": "averi_val_0098",
+      "peak_cuda": {
+        "allocated_gb": 17.778628826141357,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 6.835181821952574,
+      "retrieval_sec": 2.4725295800017193,
+      "total_sec": 9.307711401954293,
+      "questions": 4,
+      "retrieved_hits": 16,
+      "claim_images": 1,
+      "claim_index": 99,
+      "claim_id": "averi_val_0099",
+      "peak_cuda": {
+        "allocated_gb": 17.79523801803589,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 6.2867494149832055,
+      "retrieval_sec": 38.79439680406358,
+      "total_sec": 45.081146219046786,
+      "questions": 4,
+      "retrieved_hits": 25,
+      "claim_images": 1,
+      "claim_index": 100,
+      "claim_id": "averi_val_0100",
+      "peak_cuda": {
+        "allocated_gb": 17.88205337524414,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 6.2534773730440065,
+      "retrieval_sec": 27.997492208960466,
+      "total_sec": 34.25096958200447,
+      "questions": 4,
+      "retrieved_hits": 16,
+      "claim_images": 1,
+      "claim_index": 101,
+      "claim_id": "averi_val_0101",
+      "peak_cuda": {
+        "allocated_gb": 17.78428363800049,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 4.820934648974799,
+      "retrieval_sec": 1.4220960779348388,
+      "total_sec": 6.2430307269096375,
+      "questions": 3,
+      "retrieved_hits": 12,
+      "claim_images": 1,
+      "claim_index": 102,
+      "claim_id": "averi_val_0102",
+      "peak_cuda": {
+        "allocated_gb": 17.785943031311035,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 5.129549527075142,
+      "retrieval_sec": 0.0004777139984071255,
+      "total_sec": 5.130027241073549,
+      "questions": 3,
+      "retrieved_hits": 0,
+      "claim_images": 1,
+      "claim_index": 103,
+      "claim_id": "averi_val_0103",
+      "peak_cuda": {
+        "allocated_gb": 17.797134399414062,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 6.563327495008707,
+      "retrieval_sec": 28.01473473000806,
+      "total_sec": 34.578062225016765,
+      "questions": 4,
+      "retrieved_hits": 20,
+      "claim_images": 2,
+      "claim_index": 104,
+      "claim_id": "averi_val_0104",
+      "peak_cuda": {
+        "allocated_gb": 17.784483909606934,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 5.102448525023647,
+      "retrieval_sec": 6.948576613911428,
+      "total_sec": 12.051025138935074,
+      "questions": 3,
+      "retrieved_hits": 10,
+      "claim_images": 1,
+      "claim_index": 105,
+      "claim_id": "averi_val_0105",
+      "peak_cuda": {
+        "allocated_gb": 17.87096881866455,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 7.294320542947389,
+      "retrieval_sec": 21.278191019082442,
+      "total_sec": 28.57251156202983,
+      "questions": 4,
+      "retrieved_hits": 16,
+      "claim_images": 1,
+      "claim_index": 106,
+      "claim_id": "averi_val_0106",
+      "peak_cuda": {
+        "allocated_gb": 17.877878665924072,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 7.821435444056988,
+      "retrieval_sec": 35.82706684502773,
+      "total_sec": 43.64850228908472,
+      "questions": 4,
+      "retrieved_hits": 25,
+      "claim_images": 1,
+      "claim_index": 107,
+      "claim_id": "averi_val_0107",
+      "peak_cuda": {
+        "allocated_gb": 17.73825740814209,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 8.109520266065374,
+      "retrieval_sec": 22.950917323003523,
+      "total_sec": 31.060437589068897,
+      "questions": 4,
+      "retrieved_hits": 25,
+      "claim_images": 2,
+      "claim_index": 108,
+      "claim_id": "averi_val_0108",
+      "peak_cuda": {
+        "allocated_gb": 17.768088817596436,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 6.5339373589959,
+      "retrieval_sec": 9.942752607981674,
+      "total_sec": 16.476689966977574,
+      "questions": 4,
+      "retrieved_hits": 20,
+      "claim_images": 1,
+      "claim_index": 109,
+      "claim_id": "averi_val_0109",
+      "peak_cuda": {
+        "allocated_gb": 17.77324104309082,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 6.495793381938711,
+      "retrieval_sec": 14.711044038995169,
+      "total_sec": 21.20683742093388,
+      "questions": 3,
+      "retrieved_hits": 20,
+      "claim_images": 1,
+      "claim_index": 110,
+      "claim_id": "averi_val_0110",
+      "peak_cuda": {
+        "allocated_gb": 17.77235698699951,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 4.557162511977367,
+      "retrieval_sec": 15.489828158984892,
+      "total_sec": 20.04699067096226,
+      "questions": 3,
+      "retrieved_hits": 16,
+      "claim_images": 1,
+      "claim_index": 111,
+      "claim_id": "averi_val_0111",
+      "peak_cuda": {
+        "allocated_gb": 17.79299783706665,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 4.683433896978386,
+      "retrieval_sec": 11.79837770096492,
+      "total_sec": 16.481811597943306,
+      "questions": 3,
+      "retrieved_hits": 12,
+      "claim_images": 1,
+      "claim_index": 112,
+      "claim_id": "averi_val_0112",
+      "peak_cuda": {
+        "allocated_gb": 17.74622917175293,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 6.614785363082774,
+      "retrieval_sec": 35.1196055249311,
+      "total_sec": 41.73439088801388,
+      "questions": 4,
+      "retrieved_hits": 25,
+      "claim_images": 2,
+      "claim_index": 113,
+      "claim_id": "averi_val_0113",
+      "peak_cuda": {
+        "allocated_gb": 17.78258752822876,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 6.80637762893457,
+      "retrieval_sec": 25.83801313606091,
+      "total_sec": 32.64439076499548,
+      "questions": 4,
+      "retrieved_hits": 20,
+      "claim_images": 1,
+      "claim_index": 114,
+      "claim_id": "averi_val_0114",
+      "peak_cuda": {
+        "allocated_gb": 17.776896953582764,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 5.74601244693622,
+      "retrieval_sec": 32.930776956956834,
+      "total_sec": 38.67678940389305,
+      "questions": 3,
+      "retrieved_hits": 15,
+      "claim_images": 3,
+      "claim_index": 115,
+      "claim_id": "averi_val_0115",
+      "peak_cuda": {
+        "allocated_gb": 17.75985050201416,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 8.500720922020264,
+      "retrieval_sec": 18.573509553913027,
+      "total_sec": 27.07423047593329,
+      "questions": 4,
+      "retrieved_hits": 13,
+      "claim_images": 1,
+      "claim_index": 116,
+      "claim_id": "averi_val_0116",
+      "peak_cuda": {
+        "allocated_gb": 17.885644912719727,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 5.779599773930386,
+      "retrieval_sec": 0.605923775001429,
+      "total_sec": 6.385523548931815,
+      "questions": 3,
+      "retrieved_hits": 9,
+      "claim_images": 2,
+      "claim_index": 117,
+      "claim_id": "averi_val_0117",
+      "peak_cuda": {
+        "allocated_gb": 17.759779930114746,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 7.131872149067931,
+      "retrieval_sec": 29.904245608020574,
+      "total_sec": 37.036117757088505,
+      "questions": 4,
+      "retrieved_hits": 20,
+      "claim_images": 4,
+      "claim_index": 118,
+      "claim_id": "averi_val_0118",
+      "peak_cuda": {
+        "allocated_gb": 18.484915256500244,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 4.9253388290526345,
+      "retrieval_sec": 24.37043663300574,
+      "total_sec": 29.295775462058373,
+      "questions": 3,
+      "retrieved_hits": 20,
+      "claim_images": 2,
+      "claim_index": 119,
+      "claim_id": "averi_val_0119",
+      "peak_cuda": {
+        "allocated_gb": 17.865207195281982,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 7.812543874955736,
+      "retrieval_sec": 23.1757843750529,
+      "total_sec": 30.988328250008635,
+      "questions": 4,
+      "retrieved_hits": 20,
+      "claim_images": 2,
+      "claim_index": 120,
+      "claim_id": "averi_val_0120",
+      "peak_cuda": {
+        "allocated_gb": 18.06361150741577,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 6.70246047899127,
+      "retrieval_sec": 18.029659006977454,
+      "total_sec": 24.732119485968724,
+      "questions": 4,
+      "retrieved_hits": 19,
+      "claim_images": 1,
+      "claim_index": 121,
+      "claim_id": "averi_val_0121",
+      "peak_cuda": {
+        "allocated_gb": 17.74450922012329,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 7.6727174409898,
+      "retrieval_sec": 12.369610419962555,
+      "total_sec": 20.042327860952355,
+      "questions": 4,
+      "retrieved_hits": 25,
+      "claim_images": 3,
+      "claim_index": 122,
+      "claim_id": "averi_val_0122",
+      "peak_cuda": {
+        "allocated_gb": 17.802155017852783,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 4.8072461320552975,
+      "retrieval_sec": 0.7386276229517534,
+      "total_sec": 5.545873755007051,
+      "questions": 3,
+      "retrieved_hits": 3,
+      "claim_images": 1,
+      "claim_index": 123,
+      "claim_id": "averi_val_0123",
+      "peak_cuda": {
+        "allocated_gb": 17.714147567749023,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 7.137786591891199,
+      "retrieval_sec": 43.85908269393258,
+      "total_sec": 50.99686928582378,
+      "questions": 4,
+      "retrieved_hits": 18,
+      "claim_images": 1,
+      "claim_index": 124,
+      "claim_id": "averi_val_0124",
+      "peak_cuda": {
+        "allocated_gb": 17.76473379135132,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 5.561848185956478,
+      "retrieval_sec": 5.950327500933781,
+      "total_sec": 11.51217568689026,
+      "questions": 3,
+      "retrieved_hits": 15,
+      "claim_images": 1,
+      "claim_index": 125,
+      "claim_id": "averi_val_0125",
+      "peak_cuda": {
+        "allocated_gb": 17.903025150299072,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 6.6096256179735065,
+      "retrieval_sec": 0.34375888598151505,
+      "total_sec": 6.9533845039550215,
+      "questions": 4,
+      "retrieved_hits": 4,
+      "claim_images": 1,
+      "claim_index": 126,
+      "claim_id": "averi_val_0126",
+      "peak_cuda": {
+        "allocated_gb": 18.000897884368896,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 4.828009205986746,
+      "retrieval_sec": 14.14269908994902,
+      "total_sec": 18.970708295935765,
+      "questions": 3,
+      "retrieved_hits": 15,
+      "claim_images": 1,
+      "claim_index": 127,
+      "claim_id": "averi_val_0127",
+      "peak_cuda": {
+        "allocated_gb": 17.79523801803589,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 7.524114010040648,
+      "retrieval_sec": 27.65103906102013,
+      "total_sec": 35.17515307106078,
+      "questions": 4,
+      "retrieved_hits": 15,
+      "claim_images": 1,
+      "claim_index": 128,
+      "claim_id": "averi_val_0128",
+      "peak_cuda": {
+        "allocated_gb": 17.7439284324646,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 7.849188268999569,
+      "retrieval_sec": 7.7505248360103,
+      "total_sec": 15.599713105009869,
+      "questions": 4,
+      "retrieved_hits": 14,
+      "claim_images": 2,
+      "claim_index": 129,
+      "claim_id": "averi_val_0129",
+      "peak_cuda": {
+        "allocated_gb": 18.079572677612305,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 6.361397795029916,
+      "retrieval_sec": 20.77135420194827,
+      "total_sec": 27.132751996978186,
+      "questions": 4,
+      "retrieved_hits": 25,
+      "claim_images": 1,
+      "claim_index": 130,
+      "claim_id": "averi_val_0130",
+      "peak_cuda": {
+        "allocated_gb": 18.01237440109253,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 6.957838099915534,
+      "retrieval_sec": 33.43576907797251,
+      "total_sec": 40.39360717788804,
+      "questions": 4,
+      "retrieved_hits": 20,
+      "claim_images": 2,
+      "claim_index": 131,
+      "claim_id": "averi_val_0131",
+      "peak_cuda": {
+        "allocated_gb": 18.1931209564209,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 6.830301001900807,
+      "retrieval_sec": 40.173084095004015,
+      "total_sec": 47.00338509690482,
+      "questions": 4,
+      "retrieved_hits": 20,
+      "claim_images": 1,
+      "claim_index": 132,
+      "claim_id": "averi_val_0132",
+      "peak_cuda": {
+        "allocated_gb": 17.88052225112915,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 6.1532669079024345,
+      "retrieval_sec": 49.09237420198042,
+      "total_sec": 55.245641109882854,
+      "questions": 3,
+      "retrieved_hits": 20,
+      "claim_images": 2,
+      "claim_index": 133,
+      "claim_id": "averi_val_0133",
+      "peak_cuda": {
+        "allocated_gb": 17.855223178863525,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 4.815222747041844,
+      "retrieval_sec": 1.2883623630041257,
+      "total_sec": 6.1035851100459695,
+      "questions": 3,
+      "retrieved_hits": 15,
+      "claim_images": 1,
+      "claim_index": 134,
+      "claim_id": "averi_val_0134",
+      "peak_cuda": {
+        "allocated_gb": 17.7787127494812,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 5.7546629179269075,
+      "retrieval_sec": 25.418821800965816,
+      "total_sec": 31.173484718892723,
+      "questions": 4,
+      "retrieved_hits": 25,
+      "claim_images": 1,
+      "claim_index": 135,
+      "claim_id": "averi_val_0135",
+      "peak_cuda": {
+        "allocated_gb": 17.742323398590088,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 7.323988133925013,
+      "retrieval_sec": 35.68897121690679,
+      "total_sec": 43.01295935083181,
+      "questions": 4,
+      "retrieved_hits": 15,
+      "claim_images": 1,
+      "claim_index": 136,
+      "claim_id": "averi_val_0136",
+      "peak_cuda": {
+        "allocated_gb": 17.901750087738037,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 6.664366262964904,
+      "retrieval_sec": 13.627117177005857,
+      "total_sec": 20.29148343997076,
+      "questions": 4,
+      "retrieved_hits": 20,
+      "claim_images": 1,
+      "claim_index": 137,
+      "claim_id": "averi_val_0137",
+      "peak_cuda": {
+        "allocated_gb": 17.794764041900635,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 4.988149033044465,
+      "retrieval_sec": 19.067888041958213,
+      "total_sec": 24.056037075002678,
+      "questions": 3,
+      "retrieved_hits": 15,
+      "claim_images": 1,
+      "claim_index": 138,
+      "claim_id": "averi_val_0138",
+      "peak_cuda": {
+        "allocated_gb": 18.00811195373535,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 6.822004760033451,
+      "retrieval_sec": 31.464430363033898,
+      "total_sec": 38.28643512306735,
+      "questions": 4,
+      "retrieved_hits": 25,
+      "claim_images": 1,
+      "claim_index": 139,
+      "claim_id": "averi_val_0139",
+      "peak_cuda": {
+        "allocated_gb": 17.880675792694092,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 6.502245981013402,
+      "retrieval_sec": 22.046602469985373,
+      "total_sec": 28.548848450998776,
+      "questions": 4,
+      "retrieved_hits": 20,
+      "claim_images": 1,
+      "claim_index": 140,
+      "claim_id": "averi_val_0140",
+      "peak_cuda": {
+        "allocated_gb": 17.851561069488525,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 6.302133548073471,
+      "retrieval_sec": 17.92072095500771,
+      "total_sec": 24.22285450308118,
+      "questions": 4,
+      "retrieved_hits": 20,
+      "claim_images": 1,
+      "claim_index": 141,
+      "claim_id": "averi_val_0141",
+      "peak_cuda": {
+        "allocated_gb": 18.019831657409668,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 5.982247860985808,
+      "retrieval_sec": 0.5223235570592806,
+      "total_sec": 6.504571418045089,
+      "questions": 4,
+      "retrieved_hits": 4,
+      "claim_images": 1,
+      "claim_index": 142,
+      "claim_id": "averi_val_0142",
+      "peak_cuda": {
+        "allocated_gb": 17.79808235168457,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 7.009551810100675,
+      "retrieval_sec": 4.72669674793724,
+      "total_sec": 11.736248558037914,
+      "questions": 3,
+      "retrieved_hits": 12,
+      "claim_images": 1,
+      "claim_index": 143,
+      "claim_id": "averi_val_0143",
+      "peak_cuda": {
+        "allocated_gb": 17.78869342803955,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 5.927052451996133,
+      "retrieval_sec": 25.463042426039465,
+      "total_sec": 31.390094878035598,
+      "questions": 3,
+      "retrieved_hits": 10,
+      "claim_images": 1,
+      "claim_index": 144,
+      "claim_id": "averi_val_0144",
+      "peak_cuda": {
+        "allocated_gb": 17.785202026367188,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 5.164140681969002,
+      "retrieval_sec": 6.13861539401114,
+      "total_sec": 11.302756075980142,
+      "questions": 3,
+      "retrieved_hits": 15,
+      "claim_images": 1,
+      "claim_index": 145,
+      "claim_id": "averi_val_0145",
+      "peak_cuda": {
+        "allocated_gb": 17.723764419555664,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 6.796159852994606,
+      "retrieval_sec": 36.59571399400011,
+      "total_sec": 43.39187384699471,
+      "questions": 5,
+      "retrieved_hits": 13,
+      "claim_images": 1,
+      "claim_index": 146,
+      "claim_id": "averi_val_0146",
+      "peak_cuda": {
+        "allocated_gb": 17.80399751663208,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 4.918528039939702,
+      "retrieval_sec": 1.9346435400657356,
+      "total_sec": 6.853171580005437,
+      "questions": 3,
+      "retrieved_hits": 12,
+      "claim_images": 1,
+      "claim_index": 147,
+      "claim_id": "averi_val_0147",
+      "peak_cuda": {
+        "allocated_gb": 17.865207195281982,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 5.118724955944344,
+      "retrieval_sec": 0.5990238529630005,
+      "total_sec": 5.717748808907345,
+      "questions": 3,
+      "retrieved_hits": 6,
+      "claim_images": 1,
+      "claim_index": 148,
+      "claim_id": "averi_val_0148",
+      "peak_cuda": {
+        "allocated_gb": 17.813719749450684,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 6.569735002936795,
+      "retrieval_sec": 18.66255861404352,
+      "total_sec": 25.232293616980314,
+      "questions": 4,
+      "retrieved_hits": 20,
+      "claim_images": 1,
+      "claim_index": 149,
+      "claim_id": "averi_val_0149",
+      "peak_cuda": {
+        "allocated_gb": 17.78964376449585,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 6.109317851020023,
+      "retrieval_sec": 0.32082649192307144,
+      "total_sec": 6.430144342943095,
+      "questions": 3,
+      "retrieved_hits": 3,
+      "claim_images": 3,
+      "claim_index": 150,
+      "claim_id": "averi_val_0150",
+      "peak_cuda": {
+        "allocated_gb": 18.228111743927002,
+        "reserved_gb": 20.60546875
+      }
+    },
+    {
+      "question_generation_sec": 9.688821229035966,
+      "retrieval_sec": 12.737915936042555,
+      "total_sec": 22.42673716507852,
+      "questions": 4,
+      "retrieved_hits": 19,
+      "claim_images": 1,
+      "claim_index": 151,
+      "claim_id": "averi_val_0151",
+      "peak_cuda": {
+        "allocated_gb": 17.994568824768066,
+        "reserved_gb": 20.60546875
+      }
+    }
+  ],
+  "summary": {
+    "total": {
+      "n": 152,
+      "mean_sec": 25.9079971882916,
+      "median_sec": 24.70213402650552,
+      "p95_sec": 49.23936669577958,
+      "min_sec": 4.969872914021835,
+      "max_sec": 128.6541785839945,
+      "total_sec": 3938.015572620323
+    },
+    "question_generation": {
+      "n": 152,
+      "mean_sec": 6.213642033637274,
+      "median_sec": 6.193249521544203,
+      "p95_sec": 8.28556056124507,
+      "min_sec": 4.557162511977367,
+      "max_sec": 9.767392617999576,
+      "total_sec": 944.4735891128657
+    },
+    "retrieval": {
+      "n": 152,
+      "mean_sec": 19.694355154654325,
+      "median_sec": 18.618034083978273,
+      "p95_sec": 42.517384461924635,
+      "min_sec": 0.0004777139984071255,
+      "max_sec": 121.99008518294431,
+      "total_sec": 2993.541983507457
+    },
+    "peak_reserved_gb": 20.60546875,
+    "peak_allocated_gb": 20.368581295013428
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "n_claims": 152,
+  "xxp": {
+    "mean_sec": 25.9079971882916,
+    "median_sec": 24.70213402650552,
+    "p95_sec": 49.23936669577958,
+    "total_sec": 3938.015572620323,
+    "claims_per_hour": 138.9532341630375,
+    "peak_reserved_gb": 20.60546875,
+    "peak_allocated_gb": 20.368581295013428,
+    "model_load_sec": 9.256712600006722,
+    "question_generation_mean_sec": 6.213642033637274,
+    "retrieval_mean_sec": 19.694355154654325
+  },
+  "vacf_uncached": {
+    "mean_sec": 188.35954501561892,
+    "median_sec": 157.27776550961426,
+    "p95_sec": 413.54682880471205,
+    "total_sec": 28630.650842374074,
+    "claims_per_hour": 19.112384242070053,
+    "peak_reserved_gb": 2.201171875,
+    "peak_allocated_gb": 2.172365665435791,
+    "model_load_sec": 5.928733107983135,
+    "base_image_mean_sec": 0.3738762572060008,
+    "s2_text_mean_sec": 178.99213827736247,
+    "s2_prepare_mean_sec": 67.75606497051194,
+    "s2_rank_mean_sec": 111.23607330685053,
+    "post_mean_sec": 8.99353048105044
+  },
+  "relative": {
+    "vacf_over_xxp_latency_ratio": 7.270324434832917,
+    "xxp_over_vacf_peak_reserved_ratio": 9.361135758651287
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "n_claims": 152,
+  "selected_url_set_changed_claims": 0,
+  "selected_url_order_changed_claims": 0,
+  "evidence_count_changed_claims": 0,
+  "evidence_items_compared": 1520,
+  "evidence_items_with_changed_text": 1520,
+  "note": "Derived from VAL152_ABLATIONS.json; full evidence text is intentionally not redistributed in this public candidate package."
+}
